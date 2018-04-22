@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <servlet>
+        <servlet-name>UserLogin</servlet-name>
+        <servlet-class>com.servlet.UserLogin</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>UserLogin</servlet-name>
+        <url-pattern>/UserLogin</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>UserRegister</servlet-name>
+        <servlet-class>com.servlet.UserRegister</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>UserRegister</servlet-name>
+        <url-pattern>/UserRegister</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UserLogout</servlet-name>
+        <servlet-class>com.servlet.UserLogout</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserLogout</servlet-name>
+        <url-pattern>/UserLogout</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>NoteUpload</servlet-name>
+        <servlet-class>com.servlet.NoteUpload</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>NoteUpload</servlet-name>
+        <url-pattern>/NoteUpload</url-pattern>
+    </servlet-mapping>
+    <!--<servlet>-->
+        <!--<servlet-name>ShowUser</servlet-name>-->
+        <!--<servlet-class>ShowUser</servlet-class>-->
+
+    <!--</servlet>-->
+
+    <!--<servlet-mapping>-->
+        <!--<servlet-name>ShowUser</servlet-name>-->
+        <!--<url-pattern>/show</url-pattern>-->
+    <!--</servlet-mapping>-->
+
+</web-app>
+
