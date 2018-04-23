@@ -23,18 +23,21 @@ public class NoteUpload extends HttpServlet {
     private String dbPass = "123";
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String noteTitle = request.getParameter("noteTitle");
-        String noteType = request.getParameter("noteType");
+        //String noteType = request.getParameter("noteType");
+        String noteType =null;
 
         PrintWriter out=response.getWriter();
 
         InputStream inputStream = null;
         Part filePart = request.getPart("noteFile");
+        long noteSize = 0;
         if (filePart != null) {
             // prints out some information for debugging
             System.out.println(filePart.getName());
-            System.out.println(filePart.getSize());
-            int index=filePart.getContentType().lastIndexOf("/")+1;
-            System.out.println(filePart.getContentType().substring(index));
+            noteSize=filePart.getSize();
+//            int index=filePart.getContentType().lastIndexOf("/")+1;
+//            System.out.println(filePart.getContentType().substring(index));
+            noteType=filePart.getContentType();
 
             // obtains input stream of the upload file
             inputStream = filePart.getInputStream();
@@ -46,13 +49,14 @@ public class NoteUpload extends HttpServlet {
         try {
             Class.forName("com.mysql.jdbc.Driver");
             conn = DriverManager.getConnection(dbURL, dbUser,dbPass);
-            String sql = "INSERT INTO notetable (note_title, note_type, note_file) values (?, ?, ?)";
+            String sql = "INSERT INTO notetable (note_title, note_type, note_size,note_file) values (?, ?, ?,?)";
             PreparedStatement statement = conn.prepareStatement(sql);
             statement.setString(1, noteTitle);
             statement.setString(2, noteType);
+            statement.setLong(3,noteSize);
             if (inputStream != null) {
                 // fetches input stream of the upload file for the blob column
-                statement.setBlob(3, inputStream);
+                statement.setBlob(4, inputStream);
             }
             // sends the statement to the database server
             int row = statement.executeUpdate();

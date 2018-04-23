@@ -42,20 +42,21 @@ public class NoteDownload extends HttpServlet {
                 String noteTitle = result.getString("note_title");
                 Blob blob = result.getBlob("note_file");
                 InputStream inputStream = blob.getBinaryStream();
-                int noteLength = inputStream.available();
+                int fileLength = inputStream.available();
 
-                System.out.println("fileLength = " + noteLength);
-                ServletContext context = getServletContext();
-                String mimeType = context.getMimeType(noteTitle);
-                System.out.println(mimeType);
+                System.out.println("fileLength = " + fileLength);
+//                ServletContext context = getServletContext();
+//                String mimeType = context.getMimeType(noteTitle);
+                String mimeType=result.getString("note_type");
                 if (mimeType == null) {
                     mimeType = "application/octet-stream";
                 }
+                System.out.println(mimeType);
                 // set content properties and header attributes for the response
                 response.setContentType(mimeType);
-                response.setContentLength(noteLength);
+                response.setContentLength(fileLength);
                 String headerKey = "Content-Disposition";
-                String headerValue = String.format("attachment; filename=\"%s\"", noteTitle);
+                String headerValue = String.format("attachment; filename="+noteTitle);
                 response.setHeader(headerKey, headerValue);
 
                 // writes the file to the client

@@ -21,10 +21,6 @@
                 <td><input type="text" name="noteTitle" size="50"/></td>
             </tr>
             <tr>
-                <td>Note Type: </td>
-                <td><input type="text" name="noteType" size="50"/></td>
-            </tr>
-            <tr>
                 <td>Notes: </td>
                 <td><input type="file" name="noteFile" size="50"/></td>
             </tr>
