@@ -55,8 +55,10 @@ public class NoteDownload extends HttpServlet {
                 // set content properties and header attributes for the response
                 response.setContentType(mimeType);
                 response.setContentLength(fileLength);
+                int index=mimeType.lastIndexOf("/")+1;
+                System.out.println("."+mimeType.substring(index));
                 String headerKey = "Content-Disposition";
-                String headerValue = String.format("attachment; filename="+noteTitle);
+                String headerValue = String.format("attachment; filename="+noteTitle+"."+mimeType.substring(index));
                 response.setHeader(headerKey, headerValue);
 
                 // writes the file to the client
