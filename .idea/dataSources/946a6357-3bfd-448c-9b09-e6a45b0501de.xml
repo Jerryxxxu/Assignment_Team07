@@ -934,7 +934,7 @@
     </column>
     <column id="234" parent="229" name="note_file">
       <Position>4</Position>
-      <DataType>mediumblob|0s</DataType>
+      <DataType>longblob|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="235" parent="229" name="user_id">

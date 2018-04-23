@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.Part;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.PrintWriter;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -24,19 +25,22 @@ public class NoteUpload extends HttpServlet {
         String noteTitle = request.getParameter("noteTitle");
         String noteType = request.getParameter("noteType");
 
+        PrintWriter out=response.getWriter();
+
         InputStream inputStream = null;
         Part filePart = request.getPart("noteFile");
         if (filePart != null) {
             // prints out some information for debugging
             System.out.println(filePart.getName());
             System.out.println(filePart.getSize());
-            System.out.println(filePart.getContentType());
+            int index=filePart.getContentType().lastIndexOf("/")+1;
+            System.out.println(filePart.getContentType().substring(index));
 
             // obtains input stream of the upload file
             inputStream = filePart.getInputStream();
         }
         Connection conn = null; // connection to the database
-        String message = null;  // message will be sent back to client
+        //String message = null;  // message will be sent back to client
 
 
         try {
@@ -53,7 +57,8 @@ public class NoteUpload extends HttpServlet {
             // sends the statement to the database server
             int row = statement.executeUpdate();
             if (row > 0) {
-                message = "File uploaded and saved into database";
+                //message = "File uploaded and saved into database";
+                out.print("<script language='javascript'>alert('File uploaded and saved into database');window.location.href='sharingNotes.jsp';</script>");
             }
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
@@ -68,10 +73,10 @@ public class NoteUpload extends HttpServlet {
                 }
             }
             //sets the message in request scope
-            request.setAttribute("Message", message);
+            //request.setAttribute("Message", message);
 
             // forwards to the message page
-            getServletContext().getRequestDispatcher("/message.jsp").forward(request, response);
+            //getServletContext().getRequestDispatcher("/message.jsp").forward(request, response);
         }
 
     }

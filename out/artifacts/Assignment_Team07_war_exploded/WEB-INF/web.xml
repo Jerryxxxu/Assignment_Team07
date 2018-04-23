@@ -42,6 +42,15 @@
         <servlet-name>NoteUpload</servlet-name>
         <url-pattern>/NoteUpload</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>NoteDownload</servlet-name>
+        <servlet-class>com.servlet.NoteDownload</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>NoteDownload</servlet-name>
+        <url-pattern>/NoteDownload</url-pattern>
+    </servlet-mapping>
     <!--<servlet>-->
         <!--<servlet-name>ShowUser</servlet-name>-->
         <!--<servlet-class>ShowUser</servlet-class>-->
