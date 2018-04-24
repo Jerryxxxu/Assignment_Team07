@@ -20,6 +20,7 @@ public class UserLogout extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         request.setCharacterEncoding("UTF-8");
 
-        request.getRequestDispatcher("index.jsp").include(request, response);
+        request.getSession().removeAttribute("user");
+        request.getRequestDispatcher("index.jsp").forward(request, response);
     }
 }

@@ -21,7 +21,7 @@
 <div class="w3-top">
     <div class="w3-bar w3-dark-grey w3-wide w3-padding w3-card ">
         <a href="dashboard.jsp" class="w3-bar-item  w3-button fa fa-home" style="font-size: 25px">Home</a>
-        <a href="#" class="w3-bar-item  w3-button">Welcome Sakine!</a>
+        <a href="#" class="w3-bar-item  w3-button">${welcome}</a>
         <div class="w3-right w3-hide-small">
             <a href="#" class="w3-bar-item w3-button">Upload</a>
             <a href="#" class="w3-bar-item w3-button">My Notes</a>

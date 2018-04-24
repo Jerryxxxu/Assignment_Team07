@@ -15,8 +15,6 @@ import com.userdao.*;
 @WebServlet(name = "UserLogin")
 public class UserLogin extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        PrintWriter out=response.getWriter();
-
         request.setCharacterEncoding("utf-8");
         response.setCharacterEncoding("utf-8");
 
@@ -24,22 +22,23 @@ public class UserLogin extends HttpServlet {
         String userPassword = request.getParameter("userPassword");
         String info="";
 
+        PrintWriter out=response.getWriter();
 
         UserDao userDao = new UserDao();
         User user=userDao.judgementUserPassword(userName,userPassword);
+
         if(user == null){
 
             out.print("<script language='javascript'>alert('please enter the correct username and password');window.location.href='login.jsp';</script>");
 
         }else{
+            request.getSession().setAttribute("user", user);
             //jump to dashboard if username and password are correct
             info="Welcome  "+user.getUserName()+"!";
             request.setAttribute("info",info);
-            request.getRequestDispatcher("/dashboard.jsp").forward(request,response);
+            request.getRequestDispatcher("dashboard.jsp").forward(request, response);
         }
-
     }
-
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
     }

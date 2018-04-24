@@ -51,6 +51,24 @@
         <servlet-name>NoteDownload</servlet-name>
         <url-pattern>/NoteDownload</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>NoteIndex</servlet-name>
+        <servlet-class>com.servlet.NoteIndex</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>NoteIndex</servlet-name>
+        <url-pattern>/NoteIndex</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UserIndex</servlet-name>
+        <servlet-class>com.servlet.UserIndex</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserIndex</servlet-name>
+        <url-pattern>/UserIndex</url-pattern>
+    </servlet-mapping>
     <!--<servlet>-->
         <!--<servlet-name>ShowUser</servlet-name>-->
         <!--<servlet-class>ShowUser</servlet-class>-->

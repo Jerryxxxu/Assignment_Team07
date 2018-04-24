@@ -48,13 +48,15 @@
     <div class="w3-row-padding">
         <div class="w3-col l3 m6 w3-margin-bottom">
             <div class="w3-display-container">
-                <div class="w3-display-topleft w3-black w3-padding">QuestionSolver</div>
+                <div class="w3-display-topleft w3-black w3-padding">
+                    <a href="UserIndex" class="w3-bar-item w3-button">QuestionSolver</a></div>
                 <img src="https://cdn-images-1.medium.com/max/2000/1*y32goTcrvncb8ot3jcTsEA.png" alt="QuestionSolver" style="width: 200px;height:200px;margin: 20px;">
             </div>
         </div>
         <div class="w3-col l3 m6 w3-margin-bottom">
             <div class="w3-display-container">
-                <div class="w3-display-topleft w3-black w3-padding">SharingNotes</div>
+                <div class="w3-display-topleft w3-black w3-padding">
+                    <a href="UserIndex" class="w3-bar-item w3-button">SharingNotes</a></div>
                 <img src="http://www.clipartlord.com/wp-content/uploads/2013/10/note2.png" alt="SharingNotes" style="width:200px;height:200px;margin: 20px;">
             </div>
         </div>
