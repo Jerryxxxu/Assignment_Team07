@@ -69,16 +69,40 @@
         <servlet-name>UserIndex</servlet-name>
         <url-pattern>/UserIndex</url-pattern>
     </servlet-mapping>
-    <!--<servlet>-->
-        <!--<servlet-name>ShowUser</servlet-name>-->
-        <!--<servlet-class>ShowUser</servlet-class>-->
+    <servlet>
+        <servlet-name>UserNoteList</servlet-name>
+        <servlet-class>com.servlet.UserNoteList</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserNoteList</servlet-name>
+        <url-pattern>/UserNoteList</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>NoteView</servlet-name>
+        <servlet-class>com.servlet.NoteView</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>NoteView</servlet-name>
+        <url-pattern>/NoteView</url-pattern>
+    </servlet-mapping>
 
-    <!--</servlet>-->
-
-    <!--<servlet-mapping>-->
-        <!--<servlet-name>ShowUser</servlet-name>-->
-        <!--<url-pattern>/show</url-pattern>-->
-    <!--</servlet-mapping>-->
-
+    <servlet>
+        <servlet-name>NoteDelete</servlet-name>
+        <servlet-class>com.servlet.NoteDelete</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>NoteDelete</servlet-name>
+        <url-pattern>/NoteDelete</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>NoteUpdate</servlet-name>
+        <servlet-class>com.servlet.NoteUpdate</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>NoteUpdate</servlet-name>
+        <url-pattern>/NoteUpdate</url-pattern>
+    </servlet-mapping>
 </web-app>
 

@@ -29,7 +29,7 @@
         <a href="#" class="w3-bar-item  w3-button">${welcome}</a>
         <div class="w3-right w3-hide-small">
             <a href="#" class="w3-bar-item w3-button">Upload</a>
-            <a href="#" class="w3-bar-item w3-button">My Notes</a>
+            <a href="UserNoteList" class="w3-bar-item w3-button">My Notes</a>
             <a href="#" class="w3-bar-item w3-button material-icons">menu</a>
 
         </div>
@@ -82,7 +82,7 @@
                         else {
                           %>
             <tr>
-                <td><img src="https://i1.wp.com/ectdtips.com/wp-content/uploads/2011/04/word.jpg" style="width: 50px;height: 50px"></td>
+                <td><img src="images/word.jpg" style="width: 50px;height: 50px"></td>
             <%
                         }
                         %>
@@ -119,7 +119,7 @@
                 }
             %>
             <tr>
-                <td><img src="https://optionalpha.com/wp-content/uploads/2015/05/filetype_documents-011.png" style="width: 50px;height: 50px"></td>
+                <td><img src="images/pdf.png" style="width: 50px;height: 50px"></td>
                 <td><a href="#">Intelligent Web</a></td>
                 <td>5</td>
                 <td>Sakine</td>
@@ -127,7 +127,7 @@
                 <td>2 minutes ago</td>
             </tr>
             <tr>
-                <td><img src="https://optionalpha.com/wp-content/uploads/2015/05/filetype_documents-011.png" style="width: 50px;height: 50px"></td>
+                <td><img src="images/pdf.png" style="width: 50px;height: 50px"></td>
                 <td><a href="#">Cloud Computing</a></td>
                 <td>10</td>
                 <td>Jerry</td>
@@ -135,7 +135,7 @@
                 <td>3 minutes ago</td>
             </tr>
             <tr>
-                <td><img src="https://i1.wp.com/ectdtips.com/wp-content/uploads/2011/04/word.jpg" style="width: 50px;height: 50px"></td>
+                <td><img src="images/word.jpg" style="width: 50px;height: 50px"></td>
                 <td><a href="#">Genesys</a></td>
                 <td>5</td>
                 <td>Lucky</td>
@@ -143,7 +143,7 @@
                 <td>4 minutes ago</td>
             </tr>
             <tr>
-                <td><img src="https://i1.wp.com/ectdtips.com/wp-content/uploads/2011/04/word.jpg" style="width: 50px;height: 50px"></td>
+                <td><img src="images/word.jpg" style="width: 50px;height: 50px"></td>
                 <td><a href="#">Hardware and Software Verification</a></td>
                 <td>5</td>
                 <td>Stefan</td>
