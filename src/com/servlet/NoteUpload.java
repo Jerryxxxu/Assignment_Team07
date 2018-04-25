@@ -63,6 +63,7 @@ public class NoteUpload extends HttpServlet {
             if (row > 0) {
                 //message = "File uploaded and saved into database";
                 out.print("<script language='javascript'>alert('File uploaded and saved into database');window.location.href='sharingNotes.jsp';</script>");
+
             }
         } catch (ClassNotFoundException e) {
             e.printStackTrace();

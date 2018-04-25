@@ -6,6 +6,11 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page import="java.sql.ResultSet" %>
+<%@ page import="java.sql.Statement" %>
+<%@ page import="java.sql.Connection" %>
+<%@ page import="java.sql.DriverManager" %>
+
 <html>
 <head>
     <title>SharingNotes</title>
@@ -53,6 +58,66 @@
                 <th>Time</th>
             </tr>
             </thead>
+            <%
+                int note_id, number_of_page, download_time;
+                String note_type, note_title,submitting_time;
+                try{
+                    Class.forName("com.mysql.jdbc.Driver");
+                    String url = "jdbc:mysql://localhost:3306/userdb";
+                    String query1 = "SELECT * FROM notetable";
+                    String query2 = "SELECT * FROM usertable";
+                    Connection conn = DriverManager.getConnection(url, "root", "123");
+                    Statement stmt=conn.createStatement();
+                    ResultSet rs1=stmt.executeQuery(query1);
+
+                    while(rs1.next())
+                    {
+                        System.out.println(rs1.getString("note_type"));
+                        if (rs1.getString("note_type").equals("application/pdf")){
+                            %>
+            <tr>
+                <td onclick="window.location.href='http://localhost:8080/Assignment_Team07/NoteDownload?id=<%=rs1.getInt("note_id")%>'"><img src="https://optionalpha.com/wp-content/uploads/2015/05/filetype_documents-011.png" style="width: 50px;height: 50px"></td>
+            <%
+                        }
+                        else {
+                          %>
+            <tr>
+                <td><img src="https://i1.wp.com/ectdtips.com/wp-content/uploads/2011/04/word.jpg" style="width: 50px;height: 50px"></td>
+            <%
+                        }
+                        %>
+
+            <td><a href="#"><%= rs1.getString("note_title") %></a></td>
+            <td><%= rs1.getInt("number_of_pages") %></td>
+
+            <%
+                Statement stmt2=conn.createStatement();
+                ResultSet rs2=stmt2.executeQuery(query2);
+                while(rs2.next()){
+                    if(rs2.getInt("user_id") == rs1.getInt("user_id")){
+            %>
+            <td><%= rs2.getString("user_name") %></td>
+            <%
+
+                    }
+                }
+                rs2.close();
+                stmt2.close();
+            %>
+
+            <td><%= rs1.getInt("download_times") %></td>
+            <td><%= rs1.getTime("submitting_time") %></td>
+        </tr>
+                <%
+
+                    }
+                    rs1.close();
+                    stmt.close();
+                    conn.close();
+                }catch (Exception e){
+                    e.printStackTrace();
+                }
+            %>
             <tr>
                 <td><img src="https://optionalpha.com/wp-content/uploads/2015/05/filetype_documents-011.png" style="width: 50px;height: 50px"></td>
                 <td><a href="#">Intelligent Web</a></td>
