@@ -67,6 +67,7 @@ public class NoteDao {
 
                 note.setNoteId(rs.getInt("note_id"));
                 note.setNoteTitle(rs.getString("note_title"));
+                note.setNoteNumberOfPages(rs.getInt("number_of_pages"));
                 note.setNoteType(rs.getString("note_type"));
                 note.setNoteSubmitter(rs.getString("note_submitter"));
                 note.setNoteDownloadTimes(rs.getInt("download_times"));

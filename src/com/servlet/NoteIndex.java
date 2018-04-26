@@ -17,7 +17,7 @@ import java.util.ArrayList;
 @WebServlet(name = "NoteIndex")
 public class NoteIndex extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+        doGet(request, response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
