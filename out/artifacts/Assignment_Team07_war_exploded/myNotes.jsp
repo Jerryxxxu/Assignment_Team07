@@ -98,10 +98,9 @@
 
         <br>
         <br>
-
-        <button class="w3-button w3-red" style="margin-left: 20px;" name="checkall" id = "checkall" onclick="checkAll()">CheckAll</button>
-        <button class="w3-button w3-red" style="margin-left: 20px;" name="nocheck" id= "nocheck" onclick="Nocheck()">UnCheckAll</button>
-        <button class="w3-button w3-red" style="margin-left: 20px;" type="submit">delete all</button>
+            <input type="button" value="checkall" style="margin-left: 20px;" name="checkall" id = "checkall" onclick="checkAll()">
+            <input type="button" value="uncheckall" style="margin-left: 20px;" name="nocheck" id = "nocheck" onclick="nocheck()">
+            <<input type="submit" value="delete all">
         </form>
         <br>
         <br>

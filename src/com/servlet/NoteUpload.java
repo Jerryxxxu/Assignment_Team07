@@ -30,6 +30,7 @@ public class NoteUpload extends HttpServlet {
 
         String noteTitle = request.getParameter("noteTitle");
         //String noteType = request.getParameter("noteType");
+        int noteDownloadPeanuts=Integer.parseInt(request.getParameter("downloadPeanuts"));
         String noteType =null;
 
         User user=(User)session.getAttribute("user");
@@ -59,15 +60,16 @@ public class NoteUpload extends HttpServlet {
         try {
             Class.forName("com.mysql.jdbc.Driver");
             conn = DriverManager.getConnection(dbURL, dbUser,dbPass);
-            String sql = "INSERT INTO notetable (note_title, note_type, note_size, note_submitter , note_file) values (?, ?, ? , ?, ?)";
+            String sql = "INSERT INTO notetable (note_title, note_type, note_size, note_submitter , download_peanuts , note_file) values (?, ?, ? , ?, ?, ?)";
             PreparedStatement statement = conn.prepareStatement(sql);
             statement.setString(1, noteTitle);
             statement.setString(2, noteType);
             statement.setLong(3,noteSize);
             statement.setString(4,noteSubmitter);
+            statement.setInt(5,noteDownloadPeanuts);
             if (inputStream != null) {
                 // fetches input stream of the upload file for the blob column
-                statement.setBlob(5, inputStream);
+                statement.setBlob(6, inputStream);
             }
             // sends the statement to the database server
             int row = statement.executeUpdate();

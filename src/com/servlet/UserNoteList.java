@@ -33,7 +33,6 @@ public class UserNoteList extends HttpServlet {
         NoteDao notedao=new NoteDao();
         ArrayList<Note> list=notedao.selectUserNotes(name);
         request.setAttribute("list", list);
-        System.out.println(list.get(1).getNoteId());
         request.getRequestDispatcher("/myNotes.jsp").forward(request, response);
     }
 }

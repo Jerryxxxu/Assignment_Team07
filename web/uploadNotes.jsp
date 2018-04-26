@@ -21,6 +21,10 @@
                 <td><input type="text" name="noteTitle" size="50"/></td>
             </tr>
             <tr>
+                <td>Peanuts you want: </td>
+                <td><input type="text" name="downloadPeanuts" size="50"/></td>
+            </tr>
+            <tr>
                 <td>Notes: </td>
                 <td><input type="file" name="noteFile" size="50"/></td>
             </tr>

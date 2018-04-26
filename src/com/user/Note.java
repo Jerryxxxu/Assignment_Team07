@@ -11,6 +11,7 @@ public class Note {
     private byte[] noteFile;
     private String noteSubmitter;
     private Timestamp noteSubmittingTime;
+    private int noteDownloadPeanuts;
 
     public int getNoteId() {
         return noteId;
@@ -74,5 +75,13 @@ public class Note {
 
     public void setNoteSubmittingTime(Timestamp noteSubmittingTime) {
         this.noteSubmittingTime = noteSubmittingTime;
+    }
+
+    public int getNoteDownloadPeanuts() {
+        return noteDownloadPeanuts;
+    }
+
+    public void setNoteDownloadPeanuts(int noteDownloadPeanuts) {
+        this.noteDownloadPeanuts = noteDownloadPeanuts;
     }
 }
