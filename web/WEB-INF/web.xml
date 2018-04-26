@@ -104,5 +104,14 @@
         <servlet-name>NoteUpdate</servlet-name>
         <url-pattern>/NoteUpdate</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>NoteShowAll</servlet-name>
+        <servlet-class>com.servlet.NoteShowAll</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>NoteShowAll</servlet-name>
+        <url-pattern>/NoeShowAll</url-pattern>
+    </servlet-mapping>
 </web-app>
 

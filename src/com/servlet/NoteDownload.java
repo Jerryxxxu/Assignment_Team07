@@ -1,5 +1,7 @@
 package com.servlet;
 
+import com.userdao.NoteDao;
+
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -26,6 +28,8 @@ public class NoteDownload extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         int noteId = Integer.parseInt(request.getParameter("id"));
+
+
         Connection conn = null; // connection to the database
         try {
             Class.forName("com.mysql.jdbc.Driver");
@@ -70,8 +74,14 @@ public class NoteDownload extends HttpServlet {
                 while ((bytesRead = inputStream.read(buffer)) != -1) {
                     outStream.write(buffer, 0, bytesRead);
                 }
+
                 inputStream.close();
                 outStream.close();
+
+                NoteDao notedao=new NoteDao();
+                notedao.updateDownloadTimes(notedao.queryDownloadTimes(noteId));
+
+
             }else{
                 // no file found
                 response.getWriter().print("File not found for the id: " + noteId);

@@ -16,7 +16,18 @@ import java.util.ArrayList;
 @WebServlet(name = "NoteDelete")
 public class NoteDelete extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        doGet(request, response);
+
+        HttpSession session = request.getSession();
+        User user=(User)session.getAttribute("user");
+        String name =user.getUserName();
+
+        String noteId[] = request.getParameterValues("num");
+        NoteDao notedao = new NoteDao();
+        notedao.deleteUserList(noteId) ;
+
+        ArrayList<Note> list=notedao.selectUserNotes(name);
+        request.setAttribute("list", list);
+        request.getRequestDispatcher("/myNotes.jsp").forward(request, response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

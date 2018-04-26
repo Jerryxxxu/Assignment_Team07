@@ -1,6 +1,8 @@
 package com.servlet;
 
+import com.user.Note;
 import com.user.User;
+import com.userdao.NoteDao;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.MultipartConfig;
@@ -13,6 +15,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
+import java.util.ArrayList;
 
 @WebServlet(name = "NoteUpload")
 @MultipartConfig(maxFileSize = 16177215)
@@ -69,7 +72,12 @@ public class NoteUpload extends HttpServlet {
             int row = statement.executeUpdate();
             if (row > 0) {
                 //message = "File uploaded and saved into database";
-                out.print("<script language='javascript'>alert('File uploaded and saved into database');window.location.href='sharingNotes.jsp';</script>");
+                out.print("<script language='javascript'>alert('File uploaded and saved into database');</script>");
+                NoteDao notedao =new NoteDao();
+
+                ArrayList<Note> list=notedao.selectAllNotes();
+                request.setAttribute("list", list);
+                request.getRequestDispatcher("/sharingNotes.jsp").forward(request, response);
 
             }
         } catch (ClassNotFoundException e) {

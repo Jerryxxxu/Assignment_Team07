@@ -7,48 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ecd4cb8b-87e4-49e7-bb7a-3d9f9ebfe9ad" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/946a6357-3bfd-448c-9b09-e6a45b0501de.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/946a6357-3bfd-448c-9b09-e6a45b0501de.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Assignment_Team07.iml" afterPath="$PROJECT_DIR$/Assignment_Team07.iml" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/WEB-INF/classes/LoginServlet.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/WEB-INF/classes/ShowUser.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/WEB-INF/classes/checkLogin.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/WEB-INF/classes/com/servlet/NoteDownload.class" afterPath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/WEB-INF/classes/com/servlet/NoteDownload.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/WEB-INF/classes/com/servlet/NoteIndex.class" afterPath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/WEB-INF/classes/com/servlet/NoteIndex.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/WEB-INF/classes/com/servlet/NoteUpload.class" afterPath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/WEB-INF/classes/com/servlet/NoteUpload.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/WEB-INF/classes/com/servlet/UserIndex.class" afterPath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/WEB-INF/classes/com/servlet/UserIndex.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/WEB-INF/classes/com/servlet/UserLogin.class" afterPath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/WEB-INF/classes/com/servlet/UserLogin.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/WEB-INF/classes/com/servlet/UserLogout.class" afterPath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/WEB-INF/classes/com/servlet/UserLogout.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/WEB-INF/classes/com/servlet/UserRegister.class" afterPath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/WEB-INF/classes/com/servlet/UserRegister.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/WEB-INF/classes/com/user/Note.class" afterPath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/WEB-INF/classes/com/user/Note.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/WEB-INF/classes/com/user/User.class" afterPath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/WEB-INF/classes/com/user/User.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/WEB-INF/classes/com/userdao/Dbmanage.class" afterPath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/WEB-INF/classes/com/userdao/Dbmanage.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/WEB-INF/classes/com/userdao/UserDao.class" afterPath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/WEB-INF/classes/com/userdao/UserDao.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/WEB-INF/web.xml" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/sharingNotes.jsp" afterPath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/sharingNotes.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/LoginServlet.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/ShowUser.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/checkLogin.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com/servlet/NoteDelete.java" afterPath="$PROJECT_DIR$/src/com/servlet/NoteDelete.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/servlet/NoteDownload.java" afterPath="$PROJECT_DIR$/src/com/servlet/NoteDownload.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/servlet/NoteIndex.java" afterPath="$PROJECT_DIR$/src/com/servlet/NoteIndex.java" />
       <change beforePath="$PROJECT_DIR$/src/com/servlet/NoteUpload.java" afterPath="$PROJECT_DIR$/src/com/servlet/NoteUpload.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/user/Note.java" afterPath="$PROJECT_DIR$/src/com/user/Note.java" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/LoginServlet.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/ShowUser.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/checkLogin.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com/userdao/NoteDao.java" afterPath="$PROJECT_DIR$/src/com/userdao/NoteDao.java" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/servlet/NoteDownload.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/servlet/NoteDownload.class" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/servlet/NoteIndex.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/servlet/NoteIndex.class" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/servlet/NoteUpload.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/servlet/NoteUpload.class" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/servlet/UserIndex.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/servlet/UserIndex.class" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/servlet/UserLogin.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/servlet/UserLogin.class" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/servlet/UserLogout.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/servlet/UserLogout.class" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/servlet/UserRegister.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/servlet/UserRegister.class" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/user/Note.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/user/Note.class" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/user/User.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/user/User.class" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/userdao/Dbmanage.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/userdao/Dbmanage.class" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/userdao/UserDao.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/userdao/UserDao.class" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+      <change beforePath="$PROJECT_DIR$/web/myNotes.jsp" afterPath="$PROJECT_DIR$/web/myNotes.jsp" />
       <change beforePath="$PROJECT_DIR$/web/sharingNotes.jsp" afterPath="$PROJECT_DIR$/web/sharingNotes.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -103,11 +71,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserNoteList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/servlet/UserNoteList.java">
+      <file leaf-file-name="NoteIndex.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/servlet/NoteIndex.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="34" column="43" lean-forward="false" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+            <state relative-caret-position="357">
+              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,30 +86,24 @@
       <file leaf-file-name="myNotes.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/myNotes.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="963">
-              <caret line="66" column="55" lean-forward="true" selection-start-line="66" selection-start-column="55" selection-end-line="66" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserLogin.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/servlet/UserLogin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="26" column="40" lean-forward="false" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NoteDelete.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/servlet/NoteDelete.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+            <state relative-caret-position="449">
+              <caret line="90" column="81" lean-forward="false" selection-start-line="90" selection-start-column="20" selection-end-line="90" selection-end-column="81" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#form#0;n#section#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#1;n#form#0;n#section#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#2;n#form#0;n#section#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NoteDownload.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/servlet/NoteDownload.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1020">
+              <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+              <folding>
+                <marker date="1524703401006" expanded="true" signature="1301:1342" ph="SELECT * FRO... notetable" />
               </folding>
             </state>
           </provider>
@@ -150,90 +112,25 @@
       <file leaf-file-name="sharingNotes.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/sharingNotes.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-383">
-              <caret line="31" column="33" lean-forward="false" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+            <state relative-caret-position="525">
+              <caret line="68" column="99" lean-forward="false" selection-start-line="68" selection-start-column="99" selection-end-line="68" selection-end-column="99" />
               <folding>
-                <marker date="1524687081605" expanded="true" signature="2632:2655" ph="SELECT * FRO... notetable" />
-                <marker date="1524687081605" expanded="true" signature="2695:2718" ph="SELECT * FRO... usertable" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#td#0;n#tr#0;n#table#0;n#section#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1524701088936" expanded="true" signature="3362:3385" ph="SELECT * FRO... notetable" />
+                <marker date="1524701088936" expanded="true" signature="3433:3456" ph="SELECT * FRO... usertable" />
+                <marker date="1524701088936" expanded="false" signature="4494:4518" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <file leaf-file-name="NoteDelete.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/servlet/NoteDelete.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="99" column="31" lean-forward="false" selection-start-line="99" selection-start-column="31" selection-end-line="99" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NoteDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/userdao/NoteDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-33">
-              <caret line="32" column="49" lean-forward="false" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
+            <state relative-caret-position="294">
+              <caret line="29" column="46" lean-forward="false" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#471#477#0" expanded="true" />
-                <marker date="1524690343402" expanded="true" signature="599:680" ph="SELECT * FRO... notetable" />
-                <marker date="1524690343402" expanded="true" signature="1526:1563" ph="DELETE FROM noteTable... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Note.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/user/Note.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-              <folding>
-                <element signature="e#383#384#0" expanded="true" />
-                <element signature="e#424#425#0" expanded="true" />
-                <element signature="e#460#461#0" expanded="true" />
-                <element signature="e#495#496#0" expanded="true" />
-                <element signature="e#526#527#0" expanded="true" />
-                <element signature="e#574#575#0" expanded="true" />
-                <element signature="e#614#615#0" expanded="true" />
-                <element signature="e#650#651#0" expanded="true" />
-                <element signature="e#682#683#0" expanded="true" />
-                <element signature="e#732#733#0" expanded="true" />
-                <element signature="e#774#775#0" expanded="true" />
-                <element signature="e#815#816#0" expanded="true" />
-                <element signature="e#855#856#0" expanded="true" />
-                <element signature="e#918#919#0" expanded="true" />
-                <element signature="e#976#977#0" expanded="true" />
-                <element signature="e#1017#1018#0" expanded="true" />
-                <element signature="e#1057#1058#0" expanded="true" />
-                <element signature="e#1120#1121#0" expanded="true" />
-                <element signature="e#1178#1179#0" expanded="true" />
-                <element signature="e#1213#1214#0" expanded="true" />
-                <element signature="e#1244#1245#0" expanded="true" />
-                <element signature="e#1292#1293#0" expanded="true" />
-                <element signature="e#1332#1333#0" expanded="true" />
-                <element signature="e#1372#1373#0" expanded="true" />
-                <element signature="e#1408#1409#0" expanded="true" />
-                <element signature="e#1466#1467#0" expanded="true" />
-                <element signature="e#1516#1517#0" expanded="true" />
-                <element signature="e#1564#1565#0" expanded="true" />
-                <element signature="e#1605#1606#0" expanded="true" />
-                <element signature="e#1676#1677#0" expanded="true" />
-                <element signature="e#1736#1737#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/user/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="19" column="46" lean-forward="true" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
-              <folding>
-                <element signature="e#466#467#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -242,12 +139,69 @@
       <file leaf-file-name="NoteUpload.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/servlet/NoteUpload.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="31" column="48" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="31" selection-end-column="48" />
+            <state relative-caret-position="393">
+              <caret line="79" column="93" lean-forward="true" selection-start-line="75" selection-start-column="16" selection-end-line="79" selection-end-column="93" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1524683345614" expanded="true" signature="2113:2221" ph="INSERT INTO notetable... " />
+                <marker date="1524699723296" expanded="true" signature="2191:2299" ph="INSERT INTO notetable... " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserNoteList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/servlet/UserNoteList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="477">
+              <caret line="36" column="80" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="36" selection-end-column="80" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NoteDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/userdao/NoteDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="497">
+              <caret line="126" column="29" lean-forward="true" selection-start-line="126" selection-start-column="29" selection-end-line="126" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#471#477#0" expanded="true" />
+                <element signature="e#1504#1510#0" expanded="true" />
+                <marker date="1524703350172" expanded="true" signature="599:680" ph="SELECT * FRO... notetable" />
+                <marker date="1524703350172" expanded="true" signature="1632:1655" ph="SELECT * FRO... notetable" />
+                <marker date="1524703350172" expanded="true" signature="2646:2716" ph="SELECT downl... notetable" />
+                <marker date="1524703350172" expanded="true" signature="3495:3600" ph="UPDATE notetable... " />
+                <marker date="1524703350172" expanded="true" signature="4094:4131" ph="DELETE FROM noteTable... " />
+                <marker date="1524703350172" expanded="true" signature="4756:4793" ph="DELETE FROM noteTable... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/userdao/UserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="624">
+              <caret line="123" column="35" lean-forward="true" selection-start-line="122" selection-start-column="12" selection-end-line="123" selection-end-column="35" />
+              <folding>
+                <marker date="1524599705053" expanded="true" signature="384:580" ph="INSERT INTO usertable... " />
+                <marker date="1524599705053" expanded="true" signature="1777:1899" ph="SELECT * FRO... usertable" />
+                <marker date="1524599705053" expanded="true" signature="2641:2701" ph="SELECT * FRO... usertable" />
+                <marker date="1524599705053" expanded="true" signature="3513:3615" ph="UPDATE usertable... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="113" column="32" lean-forward="false" selection-start-line="113" selection-start-column="32" selection-end-line="113" selection-end-column="32" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -310,24 +264,24 @@
         <option value="$PROJECT_DIR$/src/com/servlet/UserRegister.java" />
         <option value="$PROJECT_DIR$/web/message.jsp" />
         <option value="$PROJECT_DIR$/web/uploadNotes.jsp" />
-        <option value="$PROJECT_DIR$/src/com/servlet/NoteDownload.java" />
         <option value="$PROJECT_DIR$/web/dashboard.jsp" />
         <option value="$PROJECT_DIR$/src/com/servlet/UserLogout.java" />
-        <option value="$PROJECT_DIR$/src/com/servlet/NoteIndex.java" />
         <option value="$PROJECT_DIR$/src/com/servlet/UserLogin.java" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/src/com/servlet/UserIndex.java" />
         <option value="$PROJECT_DIR$/src/com/userdao/Dbmanage.java" />
-        <option value="$PROJECT_DIR$/src/com/servlet/NoteUpload.java" />
         <option value="$PROJECT_DIR$/src/com/userdao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/com/user/Note.java" />
         <option value="$PROJECT_DIR$/src/com/servlet/NoteSelectNotDelete.java" />
-        <option value="$PROJECT_DIR$/web/sharingNotes.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/com/servlet/UserNoteList.java" />
         <option value="$PROJECT_DIR$/src/com/servlet/NoteDelete.java" />
         <option value="$PROJECT_DIR$/web/myNotes.jsp" />
-        <option value="$PROJECT_DIR$/src/com/servlet/UserNoteList.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/com/servlet/NoteUpload.java" />
+        <option value="$PROJECT_DIR$/src/com/servlet/NoteIndex.java" />
+        <option value="$PROJECT_DIR$/web/sharingNotes.jsp" />
         <option value="$PROJECT_DIR$/src/com/userdao/NoteDao.java" />
+        <option value="$PROJECT_DIR$/src/com/servlet/NoteDownload.java" />
       </list>
     </option>
   </component>
@@ -355,11 +309,10 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-42" />
-    <option name="y" value="334" />
-    <option name="width" value="1364" />
-    <option name="height" value="735" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="948" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -457,6 +410,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -666,7 +620,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106500000" />
+    <option name="totallyTimeSpent" value="116157000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -678,7 +632,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="948" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="948" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -764,7 +718,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/error.html" />
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/signup.jsp" />
     <entry file="das://946a6357-3bfd-448c-9b09-e6a45b0501de/schema/cloud_computing/table/users" />
     <entry file="das://946a6357-3bfd-448c-9b09-e6a45b0501de/schema/cloud_computing/table/userdb" />
@@ -785,14 +738,6 @@
     <entry file="file://$PROJECT_DIR$/web/sharingNotes.html" />
     <entry file="file://$PROJECT_DIR$/web/index.html" />
     <entry file="file://$PROJECT_DIR$/src/com/servlet/UserLogins.java" />
-    <entry file="file://$PROJECT_DIR$/web/signup.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="55" column="19" lean-forward="false" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LoginServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -818,26 +763,10 @@
     <entry file="das://946a6357-3bfd-448c-9b09-e6a45b0501de/schema/userdb/table/notetable.sql" />
     <entry file="das://946a6357-3bfd-448c-9b09-e6a45b0501de/schema/userdb/table/usertable" />
     <entry file="das://946a6357-3bfd-448c-9b09-e6a45b0501de/schema/userdb/table/notetable" />
-    <entry file="file://$PROJECT_DIR$/src/com/servlet/NoteDownload.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="38" column="56" lean-forward="false" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/users.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
           <caret line="27" column="11" lean-forward="true" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="60" column="52" lean-forward="false" selection-start-line="60" selection-start-column="52" selection-end-line="60" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -867,14 +796,6 @@
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/util/concurrent/ThreadPoolExecutor.java" />
-    <entry file="file://$PROJECT_DIR$/web/uploadNotes.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2bbd93f2-c920-4d4a-ba43-dbb2929254e0/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -907,41 +828,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/servlet/NoteIndex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="24" column="53" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/userdao/Dbmanage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/userdao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="42" column="37" lean-forward="false" selection-start-line="41" selection-start-column="12" selection-end-line="42" selection-end-column="37" />
-          <folding>
-            <marker date="1524599705053" expanded="true" signature="384:580" ph="INSERT INTO usertable... " />
-            <marker date="1524599705053" expanded="true" signature="1777:1899" ph="SELECT * FRO... usertable" />
-            <marker date="1524599705053" expanded="true" signature="2641:2701" ph="SELECT * FRO... usertable" />
-            <marker date="1524599705053" expanded="true" signature="3513:3615" ph="UPDATE usertable... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/servlet/NoteView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -967,36 +857,6 @@
         <state relative-caret-position="75">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="99" column="31" lean-forward="false" selection-start-line="99" selection-start-column="31" selection-end-line="99" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/sharingNotes.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-383">
-          <caret line="31" column="33" lean-forward="false" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
-          <folding>
-            <marker date="1524687081605" expanded="true" signature="2632:2655" ph="SELECT * FRO... notetable" />
-            <marker date="1524687081605" expanded="true" signature="2695:2718" ph="SELECT * FRO... usertable" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/servlet/NoteUpload.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="31" column="48" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="31" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1524683345614" expanded="true" signature="2113:2221" ph="INSERT INTO notetable... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1058,43 +918,157 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/servlet/UserNoteList.java">
+    <entry file="file://$PROJECT_DIR$/web/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="34" column="43" lean-forward="false" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+        <state relative-caret-position="180">
+          <caret line="60" column="52" lean-forward="false" selection-start-line="60" selection-start-column="52" selection-end-line="60" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/signup.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="55" column="19" lean-forward="false" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/uploadNotes.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/servlet/NoteView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/servlet/NoteDelete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="29" column="46" lean-forward="false" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/servlet/UserNoteList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="36" column="80" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="36" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/servlet/NoteIndex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/sharingNotes.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="68" column="99" lean-forward="false" selection-start-line="68" selection-start-column="99" selection-end-line="68" selection-end-column="99" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#td#0;n#tr#0;n#table#0;n#section#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1524701088936" expanded="true" signature="3362:3385" ph="SELECT * FRO... notetable" />
+            <marker date="1524701088936" expanded="true" signature="3433:3456" ph="SELECT * FRO... usertable" />
+            <marker date="1524701088936" expanded="false" signature="4494:4518" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/servlet/NoteUpload.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="79" column="93" lean-forward="true" selection-start-line="75" selection-start-column="16" selection-end-line="79" selection-end-column="93" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1524699723296" expanded="true" signature="2191:2299" ph="INSERT INTO notetable... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/myNotes.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="963">
-          <caret line="66" column="55" lean-forward="true" selection-start-line="66" selection-start-column="55" selection-end-line="66" selection-end-column="55" />
+        <state relative-caret-position="449">
+          <caret line="90" column="81" lean-forward="false" selection-start-line="90" selection-start-column="20" selection-end-line="90" selection-end-column="81" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#form#0;n#section#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#1;n#form#0;n#section#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#2;n#form#0;n#section#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/servlet/NoteShowAll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="113" column="32" lean-forward="false" selection-start-line="113" selection-start-column="32" selection-end-line="113" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/userdao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="123" column="35" lean-forward="true" selection-start-line="122" selection-start-column="12" selection-end-line="123" selection-end-column="35" />
+          <folding>
+            <marker date="1524599705053" expanded="true" signature="384:580" ph="INSERT INTO usertable... " />
+            <marker date="1524599705053" expanded="true" signature="1777:1899" ph="SELECT * FRO... usertable" />
+            <marker date="1524599705053" expanded="true" signature="2641:2701" ph="SELECT * FRO... usertable" />
+            <marker date="1524599705053" expanded="true" signature="3513:3615" ph="UPDATE usertable... " />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/userdao/NoteDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-33">
-          <caret line="32" column="49" lean-forward="false" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
+        <state relative-caret-position="497">
+          <caret line="126" column="29" lean-forward="true" selection-start-line="126" selection-start-column="29" selection-end-line="126" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#471#477#0" expanded="true" />
-            <marker date="1524690343402" expanded="true" signature="599:680" ph="SELECT * FRO... notetable" />
-            <marker date="1524690343402" expanded="true" signature="1526:1563" ph="DELETE FROM noteTable... " />
+            <element signature="e#1504#1510#0" expanded="true" />
+            <marker date="1524703350172" expanded="true" signature="599:680" ph="SELECT * FRO... notetable" />
+            <marker date="1524703350172" expanded="true" signature="1632:1655" ph="SELECT * FRO... notetable" />
+            <marker date="1524703350172" expanded="true" signature="2646:2716" ph="SELECT downl... notetable" />
+            <marker date="1524703350172" expanded="true" signature="3495:3600" ph="UPDATE notetable... " />
+            <marker date="1524703350172" expanded="true" signature="4094:4131" ph="DELETE FROM noteTable... " />
+            <marker date="1524703350172" expanded="true" signature="4756:4793" ph="DELETE FROM noteTable... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/servlet/NoteDelete.java">
+    <entry file="file://$PROJECT_DIR$/src/com/servlet/NoteDownload.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        <state relative-caret-position="1020">
+          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1524703401006" expanded="true" signature="1301:1342" ph="SELECT * FRO... notetable" />
           </folding>
         </state>
       </provider>

@@ -19,6 +19,26 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <script type="text/javascript">
+
+        function checkAll(){
+            var checkobj = document.getElementsByName("num");
+            for(var i = 0 ; i<checkobj.length ; i++){
+
+                checkobj[i].checked = "checked";
+            }
+
+        }
+        function Nocheck(){
+            var checkobj = document.getElementsByName("num");
+            for(var i = 0 ; i<checkobj.length ; i++){
+
+                checkobj[i].checked = !checkobj[i].checked ;
+            }
+
+        }
+    </script>
 </head>
 <body>
 
@@ -40,7 +60,7 @@
 <!-- Page content -->
 <div class="w3-content w3-padding" style="max-width:1564px">
     <section class="w3-container">
-        <form action="UserNoteList" method="post">
+        <form action="NoteDelete" method="post">
         <table class="w3-table w3-striped w3-bordered w3-card-4">
             <thead>
             <tr class="w3-teal">
@@ -75,11 +95,14 @@
                 }
             %>
         </table>
-        </form>
+
         <br>
         <br>
 
-        <button class="w3-button w3-red" style="margin-left: 20px;" onclick="window.location.href='uploadNotes.jsp'">Upload</button>
+        <button class="w3-button w3-red" style="margin-left: 20px;" name="checkall" id = "checkall" onclick="checkAll()">CheckAll</button>
+        <button class="w3-button w3-red" style="margin-left: 20px;" name="nocheck" id= "nocheck" onclick="Nocheck()">UnCheckAll</button>
+        <button class="w3-button w3-red" style="margin-left: 20px;" type="submit">delete all</button>
+        </form>
         <br>
         <br>
     </section>

@@ -6,10 +6,10 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ page import="java.sql.ResultSet" %>
-<%@ page import="java.sql.Statement" %>
-<%@ page import="java.sql.Connection" %>
-<%@ page import="java.sql.DriverManager" %>
+<%@ page import="com.user.Note" %>
+<%@ page import="java.util.ArrayList" %>
+
+<% ArrayList<Note> list = (ArrayList<Note>)(request.getAttribute("list")); %>
 
 <html>
 <head>
@@ -58,98 +58,93 @@
                 <th>Time</th>
             </tr>
             </thead>
+
+
+
+
+            <%for(int i = 0 ; i<list.size();i++) {
+
+                Note note = list.get(i);%>
+            <tr align="center" >
+                <td><% if (note.getNoteType().equals("application/pdf") )%><a href="NoteDownload?id=<%=note.getNoteId() %>"><img src="images/pdf.png" alt="" style="width: 50px;height: 50px"></a></td>
+                <td><%=note.getNoteTitle() %></td>
+                <td><%=note.getNoteNumberOfPages() %></td>
+                <td><%=note.getNoteSubmitter()%></td>
+                <td><%=note.getNoteDownloadTimes()%></td>
+                <td><%=note.getNoteSubmittingTime()%></td>
+            </tr>
             <%
-                int note_id, number_of_page, download_time;
-                String note_type, note_title,submitting_time;
-                try{
-                    Class.forName("com.mysql.jdbc.Driver");
-                    String url = "jdbc:mysql://localhost:3306/userdb";
-                    String query1 = "SELECT * FROM notetable";
-                    String query2 = "SELECT * FROM usertable";
-                    Connection conn = DriverManager.getConnection(url, "root", "123");
-                    Statement stmt=conn.createStatement();
-                    ResultSet rs1=stmt.executeQuery(query1);
-
-                    while(rs1.next())
-                    {
-                        System.out.println(rs1.getString("note_type"));
-                        if (rs1.getString("note_type").equals("application/pdf")){
-                            %>
-            <tr>
-                <td onclick="window.location.href='http://localhost:8080/Assignment_Team07/NoteDownload?id=<%=rs1.getInt("note_id")%>'"><img src="https://optionalpha.com/wp-content/uploads/2015/05/filetype_documents-011.png" style="width: 50px;height: 50px"></td>
-            <%
-                        }
-                        else {
-                          %>
-            <tr>
-                <td><img src="images/word.jpg" style="width: 50px;height: 50px"></td>
-            <%
-                        }
-                        %>
-
-            <td><a href="#"><%= rs1.getString("note_title") %></a></td>
-            <td><%= rs1.getInt("number_of_pages") %></td>
-
-            <%
-                Statement stmt2=conn.createStatement();
-                ResultSet rs2=stmt2.executeQuery(query2);
-                while(rs2.next()){
-                    if(rs2.getInt("user_id") == rs1.getInt("user_id")){
-            %>
-            <td><%= rs2.getString("user_name") %></td>
-            <%
-
-                    }
-                }
-                rs2.close();
-                stmt2.close();
-            %>
-
-            <td><%= rs1.getInt("download_times") %></td>
-            <td><%= rs1.getTime("submitting_time") %></td>
-        </tr>
-                <%
-
-                    }
-                    rs1.close();
-                    stmt.close();
-                    conn.close();
-                }catch (Exception e){
-                    e.printStackTrace();
                 }
             %>
-            <tr>
-                <td><img src="images/pdf.png" style="width: 50px;height: 50px"></td>
-                <td><a href="#">Intelligent Web</a></td>
-                <td>5</td>
-                <td>Sakine</td>
-                <td>20</td>
-                <td>2 minutes ago</td>
-            </tr>
-            <tr>
-                <td><img src="images/pdf.png" style="width: 50px;height: 50px"></td>
-                <td><a href="#">Cloud Computing</a></td>
-                <td>10</td>
-                <td>Jerry</td>
-                <td>100</td>
-                <td>3 minutes ago</td>
-            </tr>
-            <tr>
-                <td><img src="images/word.jpg" style="width: 50px;height: 50px"></td>
-                <td><a href="#">Genesys</a></td>
-                <td>5</td>
-                <td>Lucky</td>
-                <td>20</td>
-                <td>4 minutes ago</td>
-            </tr>
-            <tr>
-                <td><img src="images/word.jpg" style="width: 50px;height: 50px"></td>
-                <td><a href="#">Hardware and Software Verification</a></td>
-                <td>5</td>
-                <td>Stefan</td>
-                <td>20</td>
-                <td>5 minutes ago</td>
-            </tr>
+
+
+
+
+
+
+
+
+
+            <%--<%--%>
+                <%--int note_id, number_of_page, download_time;--%>
+                <%--String note_type, note_title,submitting_time;--%>
+                <%--try{--%>
+                    <%--Class.forName("com.mysql.jdbc.Driver");--%>
+                    <%--String url = "jdbc:mysql://localhost:3306/userdb";--%>
+                    <%--String query1 = "SELECT * FROM notetable";--%>
+                    <%--String query2 = "SELECT * FROM usertable";--%>
+                    <%--Connection conn = DriverManager.getConnection(url, "root", "123");--%>
+                    <%--Statement stmt=conn.createStatement();--%>
+                    <%--ResultSet rs1=stmt.executeQuery(query1);--%>
+
+                    <%--while(rs1.next())--%>
+                    <%--{--%>
+                        <%--System.out.println(rs1.getString("note_type"));--%>
+                        <%--if (rs1.getString("note_type").equals("application/pdf")){--%>
+                            <%--%>--%>
+            <%--<tr>--%>
+                <%--<td onclick="window.location.href='http://localhost:8080/Assignment_Team07/NoteDownload?id=<%=rs1.getInt("note_id")%>'"><img src="https://optionalpha.com/wp-content/uploads/2015/05/filetype_documents-011.png" style="width: 50px;height: 50px"></td>--%>
+            <%--<%--%>
+                        <%--}--%>
+                        <%--else {--%>
+                          <%--%>--%>
+            <%--<tr>--%>
+                <%--<td><img src="images/word.jpg" style="width: 50px;height: 50px"></td>--%>
+            <%--<%--%>
+                        <%--}--%>
+                        <%--%>--%>
+
+            <%--<td><a href="#"><%= rs1.getString("note_title") %></a></td>--%>
+            <%--<td><%= rs1.getInt("number_of_pages") %></td>--%>
+
+            <%--<%--%>
+                <%--Statement stmt2=conn.createStatement();--%>
+                <%--ResultSet rs2=stmt2.executeQuery(query2);--%>
+                <%--while(rs2.next()){--%>
+                    <%--if(rs2.getInt("user_id") == rs1.getInt("user_id")){--%>
+            <%--%>--%>
+            <%--<td><%= rs2.getString("user_name") %></td>--%>
+            <%--<%--%>
+
+                    <%--}--%>
+                <%--}--%>
+                <%--rs2.close();--%>
+                <%--stmt2.close();--%>
+            <%--%>--%>
+
+            <%--<td><%= rs1.getInt("download_times") %></td>--%>
+            <%--<td><%= rs1.getTime("submitting_time") %></td>--%>
+        <%--</tr>--%>
+                <%--<%--%>
+
+                    <%--}--%>
+                    <%--rs1.close();--%>
+                    <%--stmt.close();--%>
+                    <%--conn.close();--%>
+                <%--}catch (Exception e){--%>
+                    <%--e.printStackTrace();--%>
+                <%--}--%>
+            <%--%>--%>
         </table>
         <br>
         <br>
