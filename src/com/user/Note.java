@@ -12,6 +12,7 @@ public class Note {
     private String noteSubmitter;
     private Timestamp noteSubmittingTime;
     private int noteDownloadPeanuts;
+    private String noteDescription;
 
     public int getNoteId() {
         return noteId;
@@ -83,5 +84,13 @@ public class Note {
 
     public void setNoteDownloadPeanuts(int noteDownloadPeanuts) {
         this.noteDownloadPeanuts = noteDownloadPeanuts;
+    }
+
+    public String getNoteDescription() {
+        return noteDescription;
+    }
+
+    public void setNoteDescription(String noteDescription) {
+        this.noteDescription = noteDescription;
     }
 }

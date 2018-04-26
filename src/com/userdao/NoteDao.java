@@ -45,6 +45,37 @@ public class NoteDao {
         }
         return list;
     }
+
+    public Note selectOneNote(int noteId){
+        Dbmanage dbmanage = new Dbmanage();
+        Connection conn = null;
+        Statement sta = null;
+        ResultSet rs = null;
+        Note note = null;
+
+
+        try {
+            conn=dbmanage.initDB();
+            sta = conn.createStatement();
+            String sql ="SELECT * FROM notetable WHERE note_id = " + noteId;
+            rs=sta.executeQuery(sql);
+            while (rs.next()) {
+                note = new Note();
+                note.setNoteId(rs.getInt("note_id"));
+                note.setNoteTitle(rs.getString("note_title"));
+                note.setNoteDescription(rs.getString("note_description"));
+                note.setNoteDownloadPeanuts(rs.getInt("download_peanuts"));
+                note.setNoteNumberOfPages(rs.getInt("number_of_pages"));
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }finally{
+            dbmanage.closeDB(rs,sta,conn);
+        }
+        return note;
+    }
+
+
     public ArrayList<Note>selectAllNotes(){
 
         Dbmanage dbmanage = new Dbmanage();
@@ -72,6 +103,7 @@ public class NoteDao {
                 note.setNoteSubmitter(rs.getString("note_submitter"));
                 note.setNoteDownloadTimes(rs.getInt("download_times"));
                 note.setNoteSubmittingTime(rs.getTimestamp("submitting_time"));
+                note.setNoteDownloadPeanuts(rs.getInt("download_peanuts"));
 
                 list.add(note);
             }
@@ -98,6 +130,32 @@ public class NoteDao {
             while(rs.next()){
                 note =new Note();
                 note.setNoteDownloadTimes(rs.getInt("download_times"));
+                note.setNoteId(noteId);
+
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }finally {
+            dbmanage.closeDB(rs,sta,conn);
+        }
+        return note;
+    }
+    public Note queryNoteSubmitter(int noteId){
+        Dbmanage dbmanage = new Dbmanage();
+        Connection conn = null;
+        Statement sta = null;
+        ResultSet rs=null;
+        Note note =null;
+
+        try {
+            conn = dbmanage.initDB();
+            sta = conn.createStatement();
+            String sql="SELECT note_submitter FROM notetable WHERE note_id  = '" + noteId + "'";
+            rs = sta.executeQuery(sql);
+            System.out.println(sql);
+            while(rs.next()){
+                note =new Note();
+                note.setNoteSubmitter(rs.getString("note_submitter"));
                 note.setNoteId(noteId);
 
             }

@@ -1,6 +1,8 @@
 package com.servlet;
 
+import com.user.User;
 import com.userdao.NoteDao;
+import com.userdao.UserDao;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
@@ -8,9 +10,11 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.io.PrintWriter;
 import java.sql.*;
 
 @WebServlet(name = "NoteDownload")
@@ -29,6 +33,9 @@ public class NoteDownload extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         int noteId = Integer.parseInt(request.getParameter("id"));
 
+        HttpSession session=request.getSession();
+        User user=(User)session.getAttribute("user");
+
 
         Connection conn = null; // connection to the database
         try {
@@ -46,6 +53,7 @@ public class NoteDownload extends HttpServlet {
                 String noteTitle = result.getString("note_title");
                 Blob blob = result.getBlob("note_file");
                 InputStream inputStream = blob.getBinaryStream();
+                int downloadPeanuts=result.getInt("download_peanuts");
                 int fileLength = inputStream.available();
 
                 System.out.println("fileLength = " + fileLength);
@@ -80,6 +88,9 @@ public class NoteDownload extends HttpServlet {
 
                 NoteDao notedao=new NoteDao();
                 notedao.updateDownloadTimes(notedao.queryDownloadTimes(noteId));
+                UserDao userdao =new UserDao();
+                userdao.increaseUserPeanut(userdao.queryUserPeanut(user.getUserName()),-downloadPeanuts);
+                userdao.increaseUserPeanut(userdao.queryUserPeanut(notedao.queryNoteSubmitter(noteId).getNoteSubmitter()),downloadPeanuts);
 
 
             }else{

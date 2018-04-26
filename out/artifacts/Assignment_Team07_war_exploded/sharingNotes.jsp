@@ -19,6 +19,17 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <script>
+
+        function payDownloadPeanuts(downloadPeanuts,noteId){
+            if (confirm("Are you sure to pay "+downloadPeanuts+" peanuts to the author for downloading?")){
+                window.location.href="NoteDownload?id="+noteId;
+            }else {
+                return false;
+            }
+        }
+    </script>
 </head>
 <body>
 
@@ -61,21 +72,21 @@
 
 
 
-
             <%for(int i = 0 ; i<list.size();i++) {
 
                 Note note = list.get(i);%>
+
             <tr align="center" >
                 <% if (note.getNoteType().equals("application/pdf") ){
                 %>
-                <td><a href="NoteDownload?id=<%=note.getNoteId() %>"><img src="images/pdf.png" alt="" style="width: 50px;height: 50px"></a></td><%}
+                <td><a href="javascript:payDownloadPeanuts(<%=note.getNoteDownloadPeanuts() %>,<%=note.getNoteId()%>)"><img src="images/pdf.png" alt="" style="width: 50px;height: 50px"></a></td><%}
             else if(note.getNoteType().equals("application/vnd.openxmlformats-officedocument.wordprocessingml.document")){
             %>
                 <td><a href="NoteDownload?id=<%=note.getNoteId() %>"><img src="images/word.jpg" alt="" style="width: 50px;height: 50px"></a></td><%
             }
             else if(note.getNoteType().equals("image/jpeg")){
             %>
-                <td><a href="NoteDownload?id=<%=note.getNoteId() %>"><img src="images/image.jpg" alt="" style="width: 50px;height: 50px"></a></td><%
+                <td><a href="NoteDownload?id=<%=note.getNoteId() %>"><img src="images/image.jpeg" alt="" style="width: 50px;height: 50px"></a></td><%
             }
 
             else if(note.getNoteType().equals("application/vnd.openxmlformats-officedocument.presentationml.presentation")){
@@ -88,7 +99,7 @@
                 }
                 else{}
             %>
-                <td><%=note.getNoteTitle() %></td>
+                <td><a href="NoteView?noteId=<%=note.getNoteId() %>"><%=note.getNoteTitle() %></a></td>
                 <td><%=note.getNoteNumberOfPages() %></td>
                 <td><%=note.getNoteSubmitter()%></td>
                 <td><%=note.getNoteDownloadTimes()%></td>
@@ -97,68 +108,6 @@
             <%
                 }
             %>
-
-
-            <%--<%--%>
-                <%--int note_id, number_of_page, download_time;--%>
-                <%--String note_type, note_title,submitting_time;--%>
-                <%--try{--%>
-                    <%--Class.forName("com.mysql.jdbc.Driver");--%>
-                    <%--String url = "jdbc:mysql://localhost:3306/userdb";--%>
-                    <%--String query1 = "SELECT * FROM notetable";--%>
-                    <%--String query2 = "SELECT * FROM usertable";--%>
-                    <%--Connection conn = DriverManager.getConnection(url, "root", "123");--%>
-                    <%--Statement stmt=conn.createStatement();--%>
-                    <%--ResultSet rs1=stmt.executeQuery(query1);--%>
-
-                    <%--while(rs1.next())--%>
-                    <%--{--%>
-                        <%--System.out.println(rs1.getString("note_type"));--%>
-                        <%--if (rs1.getString("note_type").equals("application/pdf")){--%>
-                            <%--%>--%>
-            <%--<tr>--%>
-                <%--<td onclick="window.location.href='http://localhost:8080/Assignment_Team07/NoteDownload?id=<%=rs1.getInt("note_id")%>'"><img src="https://optionalpha.com/wp-content/uploads/2015/05/filetype_documents-011.png" style="width: 50px;height: 50px"></td>--%>
-            <%--<%--%>
-                        <%--}--%>
-                        <%--else {--%>
-                          <%--%>--%>
-            <%--<tr>--%>
-                <%--<td><img src="images/word.jpg" style="width: 50px;height: 50px"></td>--%>
-            <%--<%--%>
-                        <%--}--%>
-                        <%--%>--%>
-
-            <%--<td><a href="#"><%= rs1.getString("note_title") %></a></td>--%>
-            <%--<td><%= rs1.getInt("number_of_pages") %></td>--%>
-
-            <%--<%--%>
-                <%--Statement stmt2=conn.createStatement();--%>
-                <%--ResultSet rs2=stmt2.executeQuery(query2);--%>
-                <%--while(rs2.next()){--%>
-                    <%--if(rs2.getInt("user_id") == rs1.getInt("user_id")){--%>
-            <%--%>--%>
-            <%--<td><%= rs2.getString("user_name") %></td>--%>
-            <%--<%--%>
-
-                    <%--}--%>
-                <%--}--%>
-                <%--rs2.close();--%>
-                <%--stmt2.close();--%>
-            <%--%>--%>
-
-            <%--<td><%= rs1.getInt("download_times") %></td>--%>
-            <%--<td><%= rs1.getTime("submitting_time") %></td>--%>
-        <%--</tr>--%>
-                <%--<%--%>
-
-                    <%--}--%>
-                    <%--rs1.close();--%>
-                    <%--stmt.close();--%>
-                    <%--conn.close();--%>
-                <%--}catch (Exception e){--%>
-                    <%--e.printStackTrace();--%>
-                <%--}--%>
-            <%--%>--%>
         </table>
         <br>
         <br>

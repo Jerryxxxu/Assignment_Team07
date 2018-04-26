@@ -19,7 +19,7 @@ public class UserIndex extends HttpServlet {
 
         PrintWriter out=response.getWriter();
 
-        out.print("<script language='javascript'>alert('if you want to use our applicaitons,please log in first');window.location.href='login.jsp';</script>");
+        out.print("<script language='javascript'>alert('if you want to use our services or applications,please log in first');window.location.href='login.jsp';</script>");
     }
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         doGet(request, response);

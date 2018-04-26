@@ -106,12 +106,20 @@
     </servlet-mapping>
     
     <servlet>
-        <servlet-name>NoteShowAll</servlet-name>
-        <servlet-class>com.servlet.NoteShowAll</servlet-class>
+        <servlet-name>UserAccount</servlet-name>
+        <servlet-class>com.servlet.UserAccount</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>NoteShowAll</servlet-name>
-        <url-pattern>/NoeShowAll</url-pattern>
+        <servlet-name>UserAccount</servlet-name>
+        <url-pattern>/UserAccount</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>UserPeanutTopUp</servlet-name>
+        <servlet-class>com.servlet.UserPeanutTopUp</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserPeanutTopUp</servlet-name>
+        <url-pattern>/UserPeanutTopUp</url-pattern>
     </servlet-mapping>
 </web-app>
-
