@@ -73,7 +73,7 @@ public class NoteUpload extends HttpServlet {
             int row = statement.executeUpdate();
             if (row > 0) {
                 //message = "File uploaded and saved into database";
-                out.print("<script language='javascript'>window.confirm('File uploaded and saved into database'<br>'go back to main interface');</script>");
+                out.print("<script language='javascript'>alert('File uploaded and saved into database');</script>");
 //                NoteDao notedao =new NoteDao();
 //
 //                ArrayList<Note> list=notedao.selectAllNotes();
