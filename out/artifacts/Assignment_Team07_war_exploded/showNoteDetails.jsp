@@ -103,6 +103,7 @@
             <br>
 
             <input type="button" class="button"  value="Download" onclick="javascript:payDownloadPeanuts(<%=note.getNoteDownloadPeanuts() %>,<%=note.getNoteId()%>)">
+            <input type="button" class="button" value="Back" onclick="window.location.href='NoteIndex'">
         </form>
         <br>
         <br>

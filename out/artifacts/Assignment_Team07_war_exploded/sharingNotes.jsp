@@ -41,7 +41,6 @@
         <div class="w3-right w3-hide-small">
             <a href="#" class="w3-bar-item w3-button">Upload</a>
             <a href="UserNoteList" class="w3-bar-item w3-button">My Notes</a>
-            <a href="#" class="w3-bar-item w3-button material-icons">menu</a>
 
         </div>
     </div>

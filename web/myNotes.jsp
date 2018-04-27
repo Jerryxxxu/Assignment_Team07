@@ -100,7 +100,7 @@
         <br>
             <input type="button" value="checkall" style="margin-left: 20px;" name="checkall" id = "checkall" onclick="checkAll()">
             <input type="button" value="uncheckall" style="margin-left: 20px;" name="nocheck" id = "nocheck" onclick="Nocheck()">
-            <<input type="submit" value="delete all">
+            <input type="submit" value="delete all" style="margin-left: 20px;">
         </form>
         <br>
         <br>

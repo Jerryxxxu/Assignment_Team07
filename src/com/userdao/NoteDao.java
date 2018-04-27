@@ -34,6 +34,9 @@ public class NoteDao {
                 note.setNoteTitle(rs.getString("note_title"));
                 note.setNoteType(rs.getString("note_type"));
                 note.setNoteSubmitter(rs.getString("note_submitter"));
+                note.setNoteNumberOfPages(rs.getInt("number_of_pages"));
+                note.setNoteSubmittingTime(rs.getTimestamp("submitting_time"));
+                note.setNoteDownloadTimes(rs.getInt("download_times"));
 
                 list.add(note);
             }
@@ -114,6 +117,29 @@ public class NoteDao {
         return list;
     }
 
+    public void updateNote(Note note){
+        Dbmanage dbmanage = new Dbmanage();
+        Connection conn = null;
+        Statement sta = null;
+
+        try {
+            conn = dbmanage.initDB();
+            sta = conn.createStatement();
+            String sql = "UPDATE  notetable SET note_title='"+note.getNoteTitle()+"',note_description= '"
+                    + note.getNoteDescription() + "', number_of_pages= "
+                    + note.getNoteNumberOfPages() + ", download_peanuts= "
+                    + note.getNoteDownloadPeanuts() + " WHERE note_id= " + note.getNoteId();
+            System.out.println(sql);
+            sta.executeUpdate(sql);
+            System.out.println("update success");
+        } catch (SQLException e) {
+
+            e.printStackTrace();
+        } finally {
+            dbmanage.closeDB(sta, conn);
+        }
+
+    }
     public Note queryDownloadTimes(int noteId){
         Dbmanage dbmanage = new Dbmanage();
         Connection conn = null;
