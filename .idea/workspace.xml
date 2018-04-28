@@ -7,12 +7,174 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ecd4cb8b-87e4-49e7-bb7a-3d9f9ebfe9ad" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/myNotes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/myNotes.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/updatingNotes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/updatingNotes.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/uploadNotes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/uploadNotes.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/myNotes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/myNotes.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/uploadNotes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/uploadNotes.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Assignment_Team07_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Assignment_Team07_war_exploded.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2bbd93f2-c920-4d4a-ba43-dbb2929254e0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d1c17836-5103-4538-b567-6d6ed9c5e89a.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/WEB-INF/classes/com/servlet/NoteDelete.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/WEB-INF/classes/com/servlet/NoteDownload.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/WEB-INF/classes/com/servlet/NoteIndex.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/WEB-INF/classes/com/servlet/NoteUpdate.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/WEB-INF/classes/com/servlet/NoteUpload.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/WEB-INF/classes/com/servlet/NoteView.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/WEB-INF/classes/com/servlet/UserAccount.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/WEB-INF/classes/com/servlet/UserIndex.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/WEB-INF/classes/com/servlet/UserLogin.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/WEB-INF/classes/com/servlet/UserLogout.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/WEB-INF/classes/com/servlet/UserNoteList.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/WEB-INF/classes/com/servlet/UserPeanutTopUp.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/WEB-INF/classes/com/servlet/UserRegister.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/WEB-INF/classes/com/user/Note.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/WEB-INF/classes/com/user/User.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/WEB-INF/classes/com/userdao/Dbmanage.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/WEB-INF/classes/com/userdao/NoteDao.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/WEB-INF/classes/com/userdao/UserDao.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/WEB-INF/web.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/css/main.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/css/util.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/dashboard.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/font-awesome-4.7.0/css/font-awesome.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/font-awesome-4.7.0/css/font-awesome.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/font-awesome-4.7.0/less/animated.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/font-awesome-4.7.0/less/bordered-pulled.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/font-awesome-4.7.0/less/core.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/font-awesome-4.7.0/less/fixed-width.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/font-awesome-4.7.0/less/font-awesome.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/font-awesome-4.7.0/less/icons.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/font-awesome-4.7.0/less/larger.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/font-awesome-4.7.0/less/list.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/font-awesome-4.7.0/less/mixins.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/font-awesome-4.7.0/less/path.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/font-awesome-4.7.0/less/rotated-flipped.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/font-awesome-4.7.0/less/screen-reader.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/font-awesome-4.7.0/less/stacked.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/font-awesome-4.7.0/less/variables.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/font-awesome-4.7.0/scss/_animated.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/font-awesome-4.7.0/scss/_core.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/font-awesome-4.7.0/scss/_icons.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/font-awesome-4.7.0/scss/_larger.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/font-awesome-4.7.0/scss/_list.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/font-awesome-4.7.0/scss/_mixins.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/font-awesome-4.7.0/scss/_path.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/font-awesome-4.7.0/scss/_stacked.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/font-awesome-4.7.0/scss/_variables.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/font-awesome-4.7.0/scss/font-awesome.scss" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/iconic/css/material-design-iconic-font.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/iconic/css/material-design-iconic-font.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/iconic/fonts/Material-Design-Iconic-Font.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/iconic/fonts/Material-Design-Iconic-Font.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/iconic/fonts/Material-Design-Iconic-Font.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/iconic/fonts/Material-Design-Iconic-Font.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/iconic/fonts/Material-Design-Iconic-Font.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/poppins/Poppins-Black.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/poppins/Poppins-BlackItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/poppins/Poppins-Bold.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/poppins/Poppins-BoldItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/poppins/Poppins-ExtraBold.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/poppins/Poppins-ExtraBoldItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/poppins/Poppins-ExtraLight.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/poppins/Poppins-ExtraLightItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/poppins/Poppins-Italic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/poppins/Poppins-Light.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/poppins/Poppins-LightItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/poppins/Poppins-Medium.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/poppins/Poppins-MediumItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/poppins/Poppins-Regular.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/poppins/Poppins-SemiBold.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/poppins/Poppins-SemiBoldItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/poppins/Poppins-Thin.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/fonts/poppins/Poppins-ThinItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/images/archive.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/images/cloud.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/images/icons/favicon.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/images/image.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/images/note_sharing.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/images/pdf.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/images/ppt.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/images/questionSolver.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/images/sharingNotes.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/images/word.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/images/xls.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/index.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/js/main.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/login.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/myAccount.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/myNotes.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/peanutTopUp.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/problemSolving.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/sharingNotes.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/showNoteDetails.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/signup.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/updatingNotes.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/uploadNotes.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/vendor/animate/animate.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/vendor/animsition/css/animsition.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/vendor/animsition/css/animsition.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/vendor/animsition/js/animsition.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/vendor/animsition/js/animsition.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/vendor/bootstrap/css/bootstrap-grid.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/vendor/bootstrap/css/bootstrap-grid.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/vendor/bootstrap/css/bootstrap-grid.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/vendor/bootstrap/css/bootstrap-grid.min.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/vendor/bootstrap/css/bootstrap-reboot.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/vendor/bootstrap/css/bootstrap-reboot.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/vendor/bootstrap/css/bootstrap-reboot.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/vendor/bootstrap/css/bootstrap-reboot.min.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/vendor/bootstrap/css/bootstrap.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/vendor/bootstrap/css/bootstrap.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/vendor/bootstrap/css/bootstrap.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/vendor/bootstrap/css/bootstrap.min.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/vendor/bootstrap/js/bootstrap.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/vendor/bootstrap/js/bootstrap.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/vendor/bootstrap/js/popper.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/vendor/bootstrap/js/popper.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/vendor/bootstrap/js/tooltip.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/vendor/countdowntime/countdowntime.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/vendor/css-hamburgers/hamburgers.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/vendor/css-hamburgers/hamburgers.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/vendor/daterangepicker/daterangepicker.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/vendor/daterangepicker/daterangepicker.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/vendor/daterangepicker/moment.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/vendor/daterangepicker/moment.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/vendor/jquery/jquery-3.2.1.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/vendor/perfect-scrollbar/perfect-scrollbar.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/vendor/perfect-scrollbar/perfect-scrollbar.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/vendor/select2/select2.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/vendor/select2/select2.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/vendor/select2/select2.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/vendor/select2/select2.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com/servlet/NoteDownload.java" afterPath="$PROJECT_DIR$/src/com/servlet/NoteDownload.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/servlet/NoteUpload.java" afterPath="$PROJECT_DIR$/src/com/servlet/NoteUpload.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/servlet/UserAccount.java" afterPath="$PROJECT_DIR$/src/com/servlet/UserAccount.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/user/Note.java" afterPath="$PROJECT_DIR$/src/com/user/Note.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/userdao/NoteDao.java" afterPath="$PROJECT_DIR$/src/com/userdao/NoteDao.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/userdao/UserDao.java" afterPath="$PROJECT_DIR$/src/com/userdao/UserDao.java" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/servlet/NoteDownload.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/servlet/NoteDownload.class" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/servlet/NoteUpload.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/servlet/NoteUpload.class" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/servlet/UserAccount.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/servlet/UserAccount.class" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/user/Note.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/user/Note.class" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/userdao/NoteDao.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/userdao/NoteDao.class" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/userdao/UserDao.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/userdao/UserDao.class" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/users.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+      <change beforePath="$PROJECT_DIR$/web/message.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/myAccount.jsp" afterPath="$PROJECT_DIR$/web/myAccount.jsp" />
+      <change beforePath="$PROJECT_DIR$/web/myNotes.jsp" afterPath="$PROJECT_DIR$/web/myNotes.jsp" />
+      <change beforePath="$PROJECT_DIR$/web/problemSolving.jsp" afterPath="$PROJECT_DIR$/web/problemSolving.jsp" />
+      <change beforePath="$PROJECT_DIR$/web/uploadNotes.jsp" afterPath="$PROJECT_DIR$/web/uploadNotes.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,46 +190,96 @@
     <option name="GROUP_SCHEMA" value="true" />
     <option name="GROUP_CONTENTS" value="false" />
     <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="userdb: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="NoteIndex.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/servlet/NoteIndex.java">
+      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/userdao/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="34" column="47" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="myNotes.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/myNotes.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+            <state relative-caret-position="2085">
+              <caret line="143" column="85" lean-forward="false" selection-start-line="143" selection-start-column="85" selection-end-line="143" selection-end-column="85" />
               <folding>
-                <element signature="n#style#0;n#input#0;n#form#0;n#section#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#1;n#form#0;n#section#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#2;n#form#0;n#section#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1524934685482" expanded="true" signature="413:609" ph="INSERT INTO usertable... " />
+                <marker date="1524934685482" expanded="true" signature="1095:1175" ph="SELECT * FRO... usertable" />
+                <marker date="1524934685482" expanded="true" signature="1806:1928" ph="SELECT * FRO... usertable" />
+                <marker date="1524934685482" expanded="true" signature="2670:2730" ph="SELECT * FRO... usertable" />
+                <marker date="1524934685482" expanded="true" signature="3542:3644" ph="UPDATE usertable... " />
+                <marker date="1524934685482" expanded="true" signature="4180:4238" ph="UPDATE transactiontable... " />
+                <marker date="1524934685482" expanded="true" signature="4180:4296" ph="UPDATE transactiontable... " />
+                <marker date="1524934685482" expanded="true" signature="4180:4298" ph="UPDATE transactiontable... " />
+                <marker date="1524934685482" expanded="true" signature="4180:4337" ph="UPDATE transactiontable... " />
+                <marker date="1524934685482" expanded="true" signature="4180:4352" ph="UPDATE transactiontable... " />
+                <marker date="1524934685482" expanded="true" signature="4960:5054" ph="SELECT * FRO... transactiontable" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sharingNotes.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/sharingNotes.jsp">
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/29fdeddc-8159-4fb4-8b0f-e4a9c72cf852/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="51" column="161" lean-forward="true" selection-start-line="51" selection-start-column="161" selection-end-line="51" selection-end-column="161" />
+            <state relative-caret-position="180">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Question.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/user/Question.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Reply.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/user/Reply.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuestionReplyDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/userdao/QuestionReplyDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2730">
+              <caret line="190" column="27" lean-forward="false" selection-start-line="190" selection-start-column="27" selection-end-line="190" selection-end-column="27" />
               <folding>
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1524936268760" expanded="true" signature="548:945" ph="INSERT INTO question... " />
+                <marker date="1524936268760" expanded="true" signature="1401:1875" ph="INSERT INTO reply... " />
+                <marker date="1524936268760" expanded="true" signature="2454:2497" ph="SELECT * FRO... reply" />
+                <marker date="1524936268760" expanded="true" signature="3558:3595" ph="SELECT * FRO... reply" />
+                <marker date="1524936268760" expanded="true" signature="4659:4702" ph="SELECT * FRO... question" />
+                <marker date="1524936268760" expanded="true" signature="5694:5716" ph="SELECT * FRO... question" />
+                <marker date="1524936268760" expanded="true" signature="6756:6832" ph="UPDATE question... " />
+                <marker date="1524936268760" expanded="true" signature="7344:7407" ph="UPDATE usertable... " />
               </folding>
             </state>
           </provider>
@@ -76,38 +288,49 @@
       <file leaf-file-name="dashboard.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/dashboard.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="25" column="97" lean-forward="true" selection-start-line="25" selection-start-column="97" selection-end-line="25" selection-end-column="97" />
+            <state relative-caret-position="375">
+              <caret line="25" column="97" lean-forward="false" selection-start-line="25" selection-start-column="97" selection-end-line="25" selection-end-column="97" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <file leaf-file-name="problemSolving.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/problemSolving.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-21">
-              <caret line="30" column="96" selection-start-line="30" selection-start-column="96" selection-end-line="30" selection-end-column="96" />
+            <state relative-caret-position="270">
+              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="uploadNotes.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/uploadNotes.jsp">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1095">
-              <caret line="63" column="24" lean-forward="true" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
-              <folding>
-                <element signature="n#style#0;n#input#0;n#td#0;n#tr#1;n#table#0;n#form#0;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="1980">
+              <caret line="132" column="14" lean-forward="false" selection-start-line="132" selection-start-column="14" selection-end-line="132" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="updatingNotes.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/updatingNotes.jsp">
+      <file leaf-file-name="problemReply.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/problemReply.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
+            <state relative-caret-position="180">
+              <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuestionReply.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/servlet/QuestionReply.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -119,8 +342,8 @@
       <list>
         <option value="FxmlFile" />
         <option value="HTML File" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -133,14 +356,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/web/problemSolving.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/error.page.html" />
-        <option value="$PROJECT_DIR$/web/error.html" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/signup.jsp" />
-        <option value="$PROJECT_DIR$/src/UserVo.java" />
-        <option value="$PROJECT_DIR$/web/login.html" />
         <option value="$PROJECT_DIR$/web/userlist.jsp" />
         <option value="$PROJECT_DIR$/web/signup.html" />
         <option value="$PROJECT_DIR$/web/signup.jsp" />
@@ -148,7 +374,6 @@
         <option value="$PROJECT_DIR$/src/UserDao.java" />
         <option value="$PROJECT_DIR$/web/index.html" />
         <option value="$PROJECT_DIR$/web/problemSolving.html" />
-        <option value="$PROJECT_DIR$/web/problemSolving.jsp" />
         <option value="$PROJECT_DIR$/src/ShowUser.java" />
         <option value="$PROJECT_DIR$/src/UserLogin.java" />
         <option value="$PROJECT_DIR$/src/User.java" />
@@ -162,31 +387,37 @@
         <option value="$PROJECT_DIR$/src/com/servlet/UserLogout.java" />
         <option value="$PROJECT_DIR$/src/com/servlet/UserLogin.java" />
         <option value="$PROJECT_DIR$/src/com/userdao/Dbmanage.java" />
-        <option value="$PROJECT_DIR$/src/com/userdao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/com/servlet/NoteSelectNotDelete.java" />
         <option value="$PROJECT_DIR$/src/com/servlet/NoteDelete.java" />
         <option value="$PROJECT_DIR$/src/com/servlet/NoteIndex.java" />
         <option value="$PROJECT_DIR$/src/com/user/User.java" />
         <option value="$PROJECT_DIR$/src/com/servlet/UserNoteList.java" />
-        <option value="$PROJECT_DIR$/src/com/servlet/NoteDownload.java" />
         <option value="$PROJECT_DIR$/src/com/servlet/UserIndex.java" />
-        <option value="$PROJECT_DIR$/src/com/servlet/UserAccount.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/com/servlet/UserPeanutTopUp.java" />
-        <option value="$PROJECT_DIR$/web/myAccount.jsp" />
         <option value="$PROJECT_DIR$/web/peanutTopUp.jsp" />
-        <option value="$PROJECT_DIR$/src/com/user/Note.java" />
         <option value="$PROJECT_DIR$/src/com/servlet/NoteView.java" />
-        <option value="$PROJECT_DIR$/src/com/servlet/NoteUpload.java" />
         <option value="$PROJECT_DIR$/web/showNoteDetails.jsp" />
         <option value="$PROJECT_DIR$/src/com/servlet/NoteUpdate.java" />
-        <option value="$PROJECT_DIR$/src/com/userdao/NoteDao.java" />
         <option value="$PROJECT_DIR$/web/updatingNotes.jsp" />
-        <option value="$PROJECT_DIR$/web/myNotes.jsp" />
         <option value="$PROJECT_DIR$/web/sharingNotes.jsp" />
         <option value="$PROJECT_DIR$/web/dashboard.jsp" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/web/uploadNotes.jsp" />
+        <option value="$PROJECT_DIR$/src/com/user/Note.java" />
+        <option value="$PROJECT_DIR$/web/myNotes.jsp" />
+        <option value="$PROJECT_DIR$/src/com/servlet/NoteUpload.java" />
+        <option value="$PROJECT_DIR$/src/com/userdao/NoteDao.java" />
+        <option value="$PROJECT_DIR$/src/com/servlet/NoteDownload.java" />
+        <option value="$PROJECT_DIR$/src/com/user/Transaction.java" />
+        <option value="$PROJECT_DIR$/src/com/servlet/UserAccount.java" />
+        <option value="$PROJECT_DIR$/web/myAccount.jsp" />
+        <option value="$PROJECT_DIR$/src/com/userdao/UserDao.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/29fdeddc-8159-4fb4-8b0f-e4a9c72cf852/console.sql" />
+        <option value="$PROJECT_DIR$/src/com/servlet/QuestionReply.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/com/userdao/QuestionReplyDao.java" />
+        <option value="$PROJECT_DIR$/web/problemSolving.jsp" />
+        <option value="$PROJECT_DIR$/web/problemReply.jsp" />
       </list>
     </option>
   </component>
@@ -214,22 +445,33 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="363" />
-    <option name="y" value="108" />
-    <option name="width" value="1378" />
-    <option name="height" value="735" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="955" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -269,22 +511,10 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="userdao" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Assignment_Team07" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Assignment_Team07" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Assignment_Team07" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Assignment_Team07" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -303,10 +533,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/WEB-INF" />
+      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$/web" />
+      <recent name="$PROJECT_DIR$/src/com/user" />
       <recent name="C:\GitHub\Assignment_Team07\web" />
-      <recent name="$PROJECT_DIR$/web/WEB-INF/classes" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.servlet" />
+      <recent name="com.userdao" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/web/WEB-INF" />
       <recent name="$PROJECT_DIR$/web" />
     </key>
@@ -328,11 +566,25 @@
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="WIDTH" value="0" />
+      <module />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" />
@@ -342,13 +594,24 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
+      <envs />
       <patterns />
     </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
@@ -361,17 +624,21 @@
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" />
+      <envs />
       <properties />
       <listeners />
     </configuration>
-    <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.0.M18" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.5" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="UPDATING_POLICY" value="hot-swap-classes" />
       <deployment>
         <artifact name="Assignment_Team07:war exploded">
           <settings>
@@ -387,6 +654,7 @@
       <predefined_log_file id="Tomcat Manager" enabled="false" />
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="54322" />
       </RunnerSettings>
@@ -441,19 +709,15 @@
         </option>
       </method>
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -481,11 +745,15 @@
       <workItem from="1524594368173" duration="14165000" />
       <workItem from="1524676735397" duration="41000" />
       <workItem from="1524704220725" duration="43936000" />
+      <workItem from="1524917369987" duration="4685000" />
+      <workItem from="1524925931614" duration="6501000" />
+      <workItem from="1524937227058" duration="642000" />
+      <workItem from="1524938045082" duration="136000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160093000" />
+    <option name="totallyTimeSpent" value="172057000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -497,42 +765,41 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1680" height="955" extended-state="0" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010661" side_tool="true" weight="0.40086675" />
-      <window_info anchor="bottom" id="Application Servers" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="right" id="Mongo Explorer" order="4" weight="0.32995737" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.09168444" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3281768" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.24377032" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.51391864" visible="true" weight="0.1663113" />
-      <window_info id="Web" order="2" sideWeight="0.48608136" side_tool="true" weight="0.21406959" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Database Console" order="8" sideWeight="0.49848714" weight="0.21931261" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4969475" weight="0.21453694" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40086675" sideWeight="0.5010661" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21367522" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32753327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24186046" sideWeight="0.4989339" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16605617" sideWeight="0.51391864" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21406959" sideWeight="0.48608136" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1975435" sideWeight="0.49848714" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21453694" sideWeight="0.4969475" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -555,77 +822,27 @@
       </breakpoints>
       <option name="time" value="2" />
     </breakpoint-manager>
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/login.html" />
-    <entry file="file://$PROJECT_DIR$/web/problemSolving.html" />
-    <entry file="file://$PROJECT_DIR$/web/sharingNotes.html" />
-    <entry file="file://$PROJECT_DIR$/web/index.html" />
-    <entry file="file://$PROJECT_DIR$/src/com/servlet/UserLogins.java" />
-    <entry file="file://$PROJECT_DIR$/src/LoginServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="41" column="2" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/fail.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/ShowUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="75" column="32" selection-start-line="75" selection-start-column="32" selection-end-line="75" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://946a6357-3bfd-448c-9b09-e6a45b0501de/schema/userdb/table/notetable.sql" />
-    <entry file="das://946a6357-3bfd-448c-9b09-e6a45b0501de/schema/userdb/table/usertable" />
-    <entry file="das://946a6357-3bfd-448c-9b09-e6a45b0501de/schema/userdb/table/notetable" />
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/users.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" column="11" lean-forward="true" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/users.xml" />
     <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/util/concurrent/ThreadPoolExecutor.java" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2bbd93f2-c920-4d4a-ba43-dbb2929254e0/console.sql" />
-    <entry file="file://$PROJECT_DIR$/src/checkLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/checkLogin.java" />
     <entry file="file://$PROJECT_DIR$/src/com/servlet/NoteSelectNotDelete.java" />
     <entry file="file://$PROJECT_DIR$/src/com/servlet/UserDelete.java" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d1c17836-5103-4538-b567-6d6ed9c5e89a/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/message.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/problemSolving.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1327">
-          <caret line="78" column="6" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web/message.jsp" />
     <entry file="file://$PROJECT_DIR$/src/com/userdao/Dbmanage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="18" />
+          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1080">
-          <caret line="60" column="52" selection-start-line="60" selection-start-column="52" selection-end-line="60" selection-end-column="52" />
+          <caret line="60" column="52" lean-forward="false" selection-start-line="60" selection-start-column="52" selection-end-line="60" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -636,57 +853,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/servlet/UserAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/servlet/NoteShowAll.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="105" column="22" selection-start-line="105" selection-start-column="22" selection-end-line="105" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/myAccount.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="34" column="80" selection-start-line="34" selection-start-column="80" selection-end-line="34" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/user/Note.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="88" column="40" selection-start-line="88" selection-start-column="40" selection-end-line="88" selection-end-column="40" />
-          <folding>
-            <element signature="e#1816#1817#0" expanded="true" />
-            <element signature="e#1858#1859#0" expanded="true" />
-            <element signature="e#1925#1926#0" expanded="true" />
-            <element signature="e#1987#1988#0" expanded="true" />
-            <element signature="e#2103#2104#0" expanded="true" />
-            <element signature="e#2165#2166#0" expanded="true" />
-            <element signature="e#2219#2220#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/servlet/UserIndex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="19" column="45" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/servlet/NoteShowAll.java" />
     <entry file="file://$PROJECT_DIR$/src/com/servlet/UserPeanutTopUp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -694,59 +861,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/peanutTopUp.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/servlet/NoteDownload.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1005">
-          <caret line="92" column="72" lean-forward="true" selection-start-line="92" selection-start-column="72" selection-end-line="92" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/servlet/NoteUpload.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="70" column="49" selection-start-line="70" selection-start-column="49" selection-end-line="70" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/showNoteDetails.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="113" column="7" lean-forward="true" selection-start-line="7" selection-end-line="113" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#form#0;n#section#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#td#0;n#tr#0;n#table#0;n#form#0;n#section#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/signup.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
-          <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/user/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-          <folding>
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-          </folding>
+          <caret line="55" column="19" lean-forward="false" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -760,116 +878,292 @@
     <entry file="file://$PROJECT_DIR$/src/com/servlet/NoteDelete.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="535">
-          <caret line="47" column="50" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/servlet/UserLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+          <caret line="47" column="50" lean-forward="false" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/servlet/UserRegister.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+          <caret line="29" column="42" lean-forward="false" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/servlet/UserNoteList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/userdao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="633">
-          <caret line="123" column="35" selection-start-line="122" selection-start-column="12" selection-end-line="123" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/userdao/NoteDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-72">
-          <caret line="128" column="37" selection-start-line="128" selection-start-column="37" selection-end-line="128" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#471#477#0" expanded="true" />
-          </folding>
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/servlet/NoteUpdate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
+          <caret line="24" column="59" lean-forward="false" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/updatingNotes.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1290">
+          <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://src:table:/6be09731/d1c17836-5103-4538-b567-6d6ed9c5e89a/userdb.usertable" />
+    <entry file="das://src:table:/6be09731/d1c17836-5103-4538-b567-6d6ed9c5e89a/userdb.notetable" />
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="30" column="96" lean-forward="false" selection-start-line="30" selection-start-column="96" selection-end-line="30" selection-end-column="96" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/servlet/UserIndex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="19" column="45" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/servlet/UserLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/myNotes.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#form#0;n#section#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#1;n#form#0;n#section#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#2;n#form#0;n#section#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="266">
+          <caret line="47" column="102" lean-forward="false" selection-start-line="47" selection-start-column="102" selection-end-line="47" selection-end-column="102" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/servlet/NoteIndex.java">
+    <entry file="das://src:table:/6be09731/29fdeddc-8159-4fb4-8b0f-e4a9c72cf852/userdb.notetable">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="34" column="47" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="47" />
+        <state relative-caret-position="15">
+          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/6be09731/29fdeddc-8159-4fb4-8b0f-e4a9c72cf852/userdb.notetable">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/6be09731/29fdeddc-8159-4fb4-8b0f-e4a9c72cf852/userdb.usertable">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/peanutTopUp.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/uploadNotes.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="603">
+          <caret line="93" column="6" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="93" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/showNoteDetails.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="98" column="0" lean-forward="true" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/sharingNotes.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="51" column="161" lean-forward="true" selection-start-line="51" selection-start-column="161" selection-end-line="51" selection-end-column="161" />
+        <state relative-caret-position="869">
+          <caret line="117" column="6" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="117" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/servlet/NoteUpload.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="65" column="215" lean-forward="false" selection-start-line="65" selection-start-column="215" selection-end-line="65" selection-end-column="215" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/user/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#348#349#0" expanded="false" />
+            <element signature="e#379#380#0" expanded="false" />
+            <element signature="e#426#427#0" expanded="false" />
+            <element signature="e#466#467#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/user/Note.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="72" column="41" lean-forward="false" selection-start-line="72" selection-start-column="41" selection-end-line="72" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/servlet/UserAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="37" column="42" lean-forward="false" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/myAccount.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-130">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/servlet/NoteIndex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="38" column="58" lean-forward="false" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/user/Transaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/servlet/NoteDownload.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="94" column="175" lean-forward="false" selection-start-line="94" selection-start-column="175" selection-end-line="94" selection-end-column="175" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/userdao/NoteDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-355">
+          <caret line="88" column="44" lean-forward="false" selection-start-line="88" selection-start-column="44" selection-end-line="88" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/userdao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2085">
+          <caret line="143" column="85" lean-forward="false" selection-start-line="143" selection-start-column="85" selection-end-line="143" selection-end-column="85" />
+          <folding>
+            <marker date="1524934685482" expanded="true" signature="413:609" ph="INSERT INTO usertable... " />
+            <marker date="1524934685482" expanded="true" signature="1095:1175" ph="SELECT * FRO... usertable" />
+            <marker date="1524934685482" expanded="true" signature="1806:1928" ph="SELECT * FRO... usertable" />
+            <marker date="1524934685482" expanded="true" signature="2670:2730" ph="SELECT * FRO... usertable" />
+            <marker date="1524934685482" expanded="true" signature="3542:3644" ph="UPDATE usertable... " />
+            <marker date="1524934685482" expanded="true" signature="4180:4238" ph="UPDATE transactiontable... " />
+            <marker date="1524934685482" expanded="true" signature="4180:4296" ph="UPDATE transactiontable... " />
+            <marker date="1524934685482" expanded="true" signature="4180:4298" ph="UPDATE transactiontable... " />
+            <marker date="1524934685482" expanded="true" signature="4180:4337" ph="UPDATE transactiontable... " />
+            <marker date="1524934685482" expanded="true" signature="4180:4352" ph="UPDATE transactiontable... " />
+            <marker date="1524934685482" expanded="true" signature="4960:5054" ph="SELECT * FRO... transactiontable" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/29fdeddc-8159-4fb4-8b0f-e4a9c72cf852/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/user/Question.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/user/Reply.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/servlet/QuestionReply.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/userdao/QuestionReplyDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2730">
+          <caret line="190" column="27" lean-forward="false" selection-start-line="190" selection-start-column="27" selection-end-line="190" selection-end-column="27" />
+          <folding>
+            <marker date="1524936268760" expanded="true" signature="548:945" ph="INSERT INTO question... " />
+            <marker date="1524936268760" expanded="true" signature="1401:1875" ph="INSERT INTO reply... " />
+            <marker date="1524936268760" expanded="true" signature="2454:2497" ph="SELECT * FRO... reply" />
+            <marker date="1524936268760" expanded="true" signature="3558:3595" ph="SELECT * FRO... reply" />
+            <marker date="1524936268760" expanded="true" signature="4659:4702" ph="SELECT * FRO... question" />
+            <marker date="1524936268760" expanded="true" signature="5694:5716" ph="SELECT * FRO... question" />
+            <marker date="1524936268760" expanded="true" signature="6756:6832" ph="UPDATE question... " />
+            <marker date="1524936268760" expanded="true" signature="7344:7407" ph="UPDATE usertable... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/dashboard.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="97" lean-forward="true" selection-start-line="25" selection-start-column="97" selection-end-line="25" selection-end-column="97" />
+        <state relative-caret-position="375">
+          <caret line="25" column="97" lean-forward="false" selection-start-line="25" selection-start-column="97" selection-end-line="25" selection-end-column="97" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+    <entry file="file://$PROJECT_DIR$/web/problemSolving.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-21">
-          <caret line="30" column="96" selection-start-line="30" selection-start-column="96" selection-end-line="30" selection-end-column="96" />
+        <state relative-caret-position="270">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/updatingNotes.jsp">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
+        <state relative-caret-position="1980">
+          <caret line="132" column="14" lean-forward="false" selection-start-line="132" selection-start-column="14" selection-end-line="132" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/uploadNotes.jsp">
+    <entry file="file://$PROJECT_DIR$/web/problemReply.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1095">
-          <caret line="63" column="24" lean-forward="true" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#td#0;n#tr#1;n#table#0;n#form#0;n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>

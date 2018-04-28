@@ -1,5 +1,6 @@
 package com.servlet;
 
+import com.user.Transaction;
 import com.user.User;
 import com.userdao.UserDao;
 
@@ -10,6 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
+import java.util.ArrayList;
 
 @WebServlet(name = "UserAccount")
 public class UserAccount extends HttpServlet {
@@ -23,11 +25,19 @@ public class UserAccount extends HttpServlet {
 
         String info="";
 
+
         UserDao userdao =new UserDao();
+
+        userdao.queryAllTransaction(user.getUserName());
+
         User currentUser=userdao.queryUserPeanut(user.getUserName());
+
+        ArrayList<Transaction> list=userdao.queryAllTransaction(user.getUserName());
         info="Welcome  "+user.getUserName()+"!";
+        request.setAttribute("list",list);
         request.setAttribute("info",info);
         request.setAttribute("user",currentUser);
+
         request.getRequestDispatcher("myAccount.jsp").forward(request,response);
     }
 }

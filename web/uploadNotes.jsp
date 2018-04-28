@@ -63,7 +63,10 @@
                 </tr>
                 </thead>
                 <tr>
-                    <td ><p >Note Title </p> <input style="padding-right: 10px" type="text" name="noteTitle" size="100"/></td>
+                    <td ><p >Title </p> <input style="padding-right: 10px" type="text" name="noteTitle" size="100"/></td>
+                </tr>
+                <tr>
+                    <td ><p >How many Pages? </p> <input style="padding-right: 10px" type="text" name="noteNumberOfPages" size="100"/></td>
                 </tr>
                 <tr>
                     <td >
@@ -73,7 +76,7 @@
                 </tr>
 
                 <tr>
-                    <td ><p>Note file </p> <input style="padding-right: 10px" type="file" name="noteFile" size="100"/></td>
+                    <td ><p>Upload your notes </p> <input style="padding-right: 10px" type="file" name="noteFile" size="100"/></td>
                 </tr>
                 <tr>
                     <td ><p>Peanuts you want </p> <input style="padding-right: 10px" type="text" name="downloadPeanuts" size="100"/></td>

@@ -92,6 +92,7 @@ public class NoteDownload extends HttpServlet {
                 userdao.increaseUserPeanut(userdao.queryUserPeanut(user.getUserName()),-downloadPeanuts);
                 userdao.increaseUserPeanut(userdao.queryUserPeanut(notedao.queryNoteSubmitter(noteId).getNoteSubmitter()),downloadPeanuts);
 
+                userdao.updateTransaction(user.getUserName(),notedao.queryNoteSubmitter(noteId).getNoteSubmitter(),downloadPeanuts,notedao.selectOneNote(noteId).getNoteTitle());
 
             }else{
                 // no file found

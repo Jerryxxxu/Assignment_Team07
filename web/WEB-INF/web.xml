@@ -122,4 +122,13 @@
         <servlet-name>UserPeanutTopUp</servlet-name>
         <url-pattern>/UserPeanutTopUp</url-pattern>
     </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>QuestionReply</servlet-name>
+        <url-pattern>/QuestionReply</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>QuestionReply</servlet-name>
+        <servlet-class>com.servlet.QuestionReply</servlet-class>
+    </servlet>
 </web-app>

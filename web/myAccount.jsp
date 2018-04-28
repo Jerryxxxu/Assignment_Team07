@@ -1,4 +1,6 @@
-<%@ page import="com.user.User" %><%--
+<%@ page import="com.user.User" %>
+<%@ page import="java.util.ArrayList" %>
+<%@ page import="com.user.Transaction" %><%--
   Created by IntelliJ IDEA.
   User: Jerry
   Date: 2018/4/26
@@ -7,6 +9,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <% User user = (User) request.getAttribute("user"); %>
+<% ArrayList<Transaction> list= (ArrayList<Transaction>) request.getAttribute("list"); %>
 <html>
 <title>My Account</title>
 <meta charset="UTF-8">
@@ -30,9 +33,46 @@
     </div>
 </div>
 
+
+
 <div class="w3-padding-64"><h1>your current balance:<%=user.getUserPeanuts()%></h1></div>
 
-<button class="w3-button w3-red" onclick="window.location.href='peanutTopUp.jsp'">Top Up</button>
+<div class="w3-content w3-padding" style="max-width:1564px">
+    <section class="w3-container">
+
+        <table class="w3-table w3-striped w3-bordered w3-card-4">
+            <thead>
+            <tr class="w3-teal">
+                <th>Receiver</th>
+                <th>Content</th>
+                <th>Peanuts</th>
+
+            </tr>
+            </thead>
+
+
+
+            <%for(int i = 0 ; i<list.size();i++) {
+
+                Transaction transaction = list.get(i);%>
+
+            <tr align="center" >
+                <td><%=transaction.getTransactionReceiver() %></td>
+                <td><%=transaction.getTransactionContent()%></td>
+                <td><%=transaction.setTransactionPeanuts()%></td>
+            </tr>
+            <%
+                }
+            %>
+        </table>
+        <br>
+        <br>
+
+        <button class="w3-button w3-red" style="margin-left: 20px;" onclick="window.location.href='peanutTopUp.jsp'">Top up</button>
+        <br>
+        <br>
+    </section>
+</div>
 
 
 </body>

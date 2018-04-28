@@ -35,7 +35,7 @@ public class NoteDao {
                 note.setNoteType(rs.getString("note_type"));
                 note.setNoteSubmitter(rs.getString("note_submitter"));
                 note.setNoteNumberOfPages(rs.getInt("number_of_pages"));
-                note.setNoteSubmittingTime(rs.getTimestamp("submitting_time"));
+                note.setNoteSubmittingTime(rs.getString("submitting_time"));
                 note.setNoteDownloadTimes(rs.getInt("download_times"));
 
                 list.add(note);
@@ -105,7 +105,7 @@ public class NoteDao {
                 note.setNoteType(rs.getString("note_type"));
                 note.setNoteSubmitter(rs.getString("note_submitter"));
                 note.setNoteDownloadTimes(rs.getInt("download_times"));
-                note.setNoteSubmittingTime(rs.getTimestamp("submitting_time"));
+                note.setNoteSubmittingTime(rs.getString("submitting_time"));
                 note.setNoteDownloadPeanuts(rs.getInt("download_peanuts"));
 
                 list.add(note);
@@ -128,7 +128,7 @@ public class NoteDao {
             String sql = "UPDATE  notetable SET note_title='"+note.getNoteTitle()+"',note_description= '"
                     + note.getNoteDescription() + "', number_of_pages= "
                     + note.getNoteNumberOfPages() + ", download_peanuts= "
-                    + note.getNoteDownloadPeanuts() + " WHERE note_id= " + note.getNoteId();
+                    + note.getNoteDownloadPeanuts() + " WHERE note_id= "+ note.getNoteId();
             System.out.println(sql);
             sta.executeUpdate(sql);
             System.out.println("update success");

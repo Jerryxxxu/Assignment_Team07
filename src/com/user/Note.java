@@ -10,7 +10,7 @@ public class Note {
     private int noteDownloadTimes;
     private byte[] noteFile;
     private String noteSubmitter;
-    private Timestamp noteSubmittingTime;
+    private String  noteSubmittingTime;
     private int noteDownloadPeanuts;
     private String noteDescription;
 
@@ -70,11 +70,11 @@ public class Note {
         this.noteSubmitter = noteSubmitter;
     }
 
-    public Timestamp getNoteSubmittingTime() {
+    public String getNoteSubmittingTime() {
         return noteSubmittingTime;
     }
 
-    public void setNoteSubmittingTime(Timestamp noteSubmittingTime) {
+    public void setNoteSubmittingTime(String noteSubmittingTime) {
         this.noteSubmittingTime = noteSubmittingTime;
     }
 

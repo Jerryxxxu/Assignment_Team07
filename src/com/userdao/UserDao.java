@@ -1,5 +1,6 @@
 package com.userdao;
 
+import com.user.Transaction;
 import com.user.User;
 
 import java.sql.*;
@@ -129,5 +130,62 @@ public class UserDao {
             dbmanage.closeDB(sta,conn);
         }
     }
+
+    public void updateTransaction(String sender,String submitter,int peanuts,String title){
+        Dbmanage dbmanage = new Dbmanage();
+        Connection conn = null;
+        Statement sta=null;
+
+
+        try {
+            conn=dbmanage.initDB();
+            sta=conn.createStatement();
+
+            String sql = "UPDATE transactiontable SET transaction_peanuts="+peanuts+",transaction_receiver='"+submitter+"',transaction_content='"+title+"' WHERE transaction_sender = '" + sender + "'";
+            sta.executeUpdate(sql);
+
+            System.out.println(sql);
+
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }finally {
+            dbmanage.closeDB(sta,conn);
+        }
+    }
+
+    public ArrayList<Transaction> queryAllTransaction(String sender) {
+        Dbmanage dbmanage = new Dbmanage();
+        Connection conn = null;
+        Statement sta=null;
+        ResultSet rs=null;
+        ArrayList<Transaction> list=new ArrayList<Transaction>();
+
+        try {
+            conn=dbmanage.initDB();
+            sta=conn.createStatement();
+            String sql = "SELECT * FROM transactiontable WHERE transaction_sender = '"
+                    + sender + "'";
+            rs=sta.executeQuery(sql);
+
+            while(rs.next()){
+                Transaction transaction =new Transaction();
+
+                transaction.setTransactionSender(rs.getString("transaction_sender"));
+                transaction.setTransactionPeanuts(rs.getInt("transaction_peanuts"));
+                transaction.setTransactionContent(rs.getString("transaction_content"));
+                transaction.setTransactionId(rs.getInt("transaction_id"));
+                transaction.setTransactionReceiver(rs.getString("transaction_receiver"));
+
+                list.add(transaction);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }finally {
+            dbmanage.closeDB(sta,conn);
+        }
+        return list;
+    }
+
 
 }

@@ -7,6 +7,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -40,14 +41,13 @@
         return;
     }
 %>
-<div class="">
+<div class="w3-top">
     <div class="w3-bar w3-light-grey">
         <a href="dashboard.jsp" class="w3-bar-item w3-large w3-button ">Home</a>
         <a class="w3-bar-item w3-text w3-text-pink w3-large w3-tangerine">Welcome ${user.userName}!</a>
         <a class="ex1 w3-bar-item w3-large w3-button"></a>
         <div class="w3-dropdown-hover">
-            <button class="w3-button w3-large">Peanuts ${user1.userPeanuts}
-            </button>
+            <button class="w3-button w3-large">Peanuts ${user1.userPeanuts }</button>
             <div class="w3-dropdown-content w3-bar-block w3-card-4">
                 <a class="w3-bar-item w3-button w3-large">My Status</a>
                 <a class="w3-bar-item w3-button w3-large">Submitted Problem </a>
@@ -61,29 +61,42 @@
             <img src="http://img3.imgtn.bdimg.com/it/u=3111526370,1353314867&fm=11&gp=0.jpg" class="w3-circle" alt="Norway" align="middle"  style="width:100%;height:6.5cm">
             <div class="w3-display-middle w3-jumbo">Problem and Solving</div>
         </div>
-        <div class="w3-large">Question Lists:</div>
+        <div class="w3-large">Reply Lists:</div>
     </div>
+     <form action="QuestionReply" method="post">
+    <input type="hidden" name="methodname" value="addBestReply">
+    <input type="hidden" name="questionid" value="${question.questionId}">
     <div class="w3-container">
         <div class="w3-panel w3-pale-blue w3-leftbar w3-rightbar w3-border-blue">
-            <div class="w3-text w3-large">QUESTION :</div>
-            <c:forEach var="ql" items="${questionlist}">
-                <div class="w3-text w3-text-red w3-large"><a href="QuestionReply?methodname=queryReply&questionid=${ql.questionId}">${ql.questionInfo }</a></div>
-                <div class="w3-text w3-text-brown">Post by ${ql.questionUsername} at ${ql.questiontime }.</div>
-            </c:forEach>
-
+       <div class="w3-text w3-large">${question.questionInfo } :</div>
+        <c:forEach var="rl" items="${replylist}">
+            <div class="w3-text w3-text-red w3-large">${rl.replyInfo }
+            	<c:if test="${question.questionUser==user.userId}">
+            	<input type="radio" name="bestanswer"
+            	 <c:if test="${question.questionBestReply==rl.replyId}"> checked="checked"</c:if>
+            	  value="${rl.replyId }">
+            	</c:if>
+            </div>
+            <div class="w3-text w3-text-brown">Post by ${rl.replyusername} at ${rl.replyTime}.</div>
+		</c:forEach>
+		<c:if test="${question.questionUser==user.userId&&question.questionBestReply=='0'}">
+    	<input class="w3-button w3-black w3-round-large" type="submit" value="best reply"/>
+		</c:if>
         </div>
-
+	</form>
     </div>
     <form action="QuestionReply" method="post">
-        <input type="hidden" name="methodname" value="addQuestion">
-        <div class="w3-container">
-            <div class="w3-large">Your Question</div>
-            <div class="w3-left-align "><p><input type="text" name="questionInfo"/></p></div>
-        </div>
-
-        <p>
-            <input class="w3-button w3-black w3-round-large" type="submit" value="Submit"/>
+    <input type="hidden" name="methodname" value="addReply">
+    <input type="hidden" name="questionid" value="${question.questionId}">
+    <c:if test="${question.questionUser!=user.userId}">
+    <div class="w3-container">
+        <div class="w3-large">Your Reply</div>
+        <div class="w3-left-align ">
+        <p><input type="text" name="replyInfo"/></p></div>
+    </div>
+    	<input class="w3-button w3-black w3-round-large" type="submit" value="Submit"/>
     </form>
+    </c:if>
 </div>
 
 </body>
