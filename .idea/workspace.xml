@@ -7,15 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ecd4cb8b-87e4-49e7-bb7a-3d9f9ebfe9ad" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/29fdeddc-8159-4fb4-8b0f-e4a9c72cf852.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/servlet/NoteDownload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/servlet/NoteDownload.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/servlet/NoteIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/servlet/NoteIndex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/servlet/NoteUpload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/servlet/NoteUpload.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/servlet/UserLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/servlet/UserLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/userdao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/userdao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/servlet/NoteUpload.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/servlet/NoteUpload.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/userdao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/userdao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sharingNotes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/sharingNotes.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,93 +37,25 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="userdb: schema" type="c314c289:MysqlImplModel$Schema" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="NoteIndex.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/servlet/NoteIndex.java">
+    <leaf>
+      <file leaf-file-name="NoteDownload.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/servlet/NoteDownload.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
-              <caret line="43" column="69" selection-start-line="43" selection-start-column="64" selection-end-line="43" selection-end-column="69" />
+            <state relative-caret-position="422">
+              <caret line="94" column="144" selection-start-line="94" selection-start-column="144" selection-end-line="94" selection-end-column="144" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/userdao/UserDao.java">
+      <file leaf-file-name="UserAccount.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/servlet/UserAccount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="102" column="58" lean-forward="true" selection-start-line="102" selection-start-column="58" selection-end-line="102" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="uploadNotes.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/uploadNotes.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="603">
-              <caret line="93" column="6" selection-start-line="54" selection-end-line="93" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NoteUpload.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/servlet/NoteUpload.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="36" column="39" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dashboard.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/dashboard.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="52" column="32" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="myAccount.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/myAccount.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="635">
-              <caret line="63" column="12" lean-forward="true" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="problemSolving.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/problemSolving.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="69" column="86" lean-forward="true" selection-start-line="69" selection-start-column="86" selection-end-line="69" selection-end-column="86" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sharingNotes.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/sharingNotes.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1095">
-              <caret line="20" column="90" lean-forward="true" selection-start-line="20" selection-start-column="90" selection-end-line="20" selection-end-column="90" />
+            <state relative-caret-position="468">
+              <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -135,17 +63,17 @@
       <file leaf-file-name="UserLogin.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/servlet/UserLogin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="38" column="75" lean-forward="true" selection-start-line="36" selection-start-column="12" selection-end-line="38" selection-end-column="75" />
+            <state relative-caret-position="359">
+              <caret line="39" column="122" lean-forward="true" selection-start-line="39" selection-start-column="122" selection-end-line="39" selection-end-column="122" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="problemReply.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/problemReply.jsp">
+      <file leaf-file-name="NoteIndex.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/servlet/NoteIndex.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+            <state relative-caret-position="558">
+              <caret line="44" column="83" selection-start-line="44" selection-start-column="83" selection-end-line="44" selection-end-column="83" />
             </state>
           </provider>
         </entry>
@@ -209,7 +137,6 @@
         <option value="$PROJECT_DIR$/src/com/user/Note.java" />
         <option value="$PROJECT_DIR$/web/myNotes.jsp" />
         <option value="$PROJECT_DIR$/src/com/userdao/NoteDao.java" />
-        <option value="$PROJECT_DIR$/src/com/servlet/NoteDownload.java" />
         <option value="$PROJECT_DIR$/src/com/user/Transaction.java" />
         <option value="$PROJECT_DIR$/src/com/servlet/UserAccount.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/29fdeddc-8159-4fb4-8b0f-e4a9c72cf852/console.sql" />
@@ -226,8 +153,9 @@
         <option value="$PROJECT_DIR$/src/com/servlet/NoteUpload.java" />
         <option value="$PROJECT_DIR$/web/sharingNotes.jsp" />
         <option value="$PROJECT_DIR$/src/com/userdao/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/com/servlet/UserLogin.java" />
         <option value="$PROJECT_DIR$/src/com/servlet/NoteIndex.java" />
+        <option value="$PROJECT_DIR$/src/com/servlet/UserLogin.java" />
+        <option value="$PROJECT_DIR$/src/com/servlet/NoteDownload.java" />
       </list>
     </option>
   </component>
@@ -256,7 +184,8 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
+    <option name="x" value="113" />
+    <option name="y" value="53" />
     <option name="width" value="1680" />
     <option name="height" value="955" />
   </component>
@@ -270,7 +199,6 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -325,6 +253,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -420,6 +349,7 @@
     </configuration>
     <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.0.M18" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/Assignment_Team07/" />
       <option name="UPDATING_POLICY" value="hot-swap-classes" />
       <deployment>
         <artifact name="Assignment_Team07:war exploded">
@@ -534,12 +464,13 @@
       <workItem from="1524925931614" duration="6501000" />
       <workItem from="1524937227058" duration="642000" />
       <workItem from="1524938045082" duration="136000" />
-      <workItem from="1524940222427" duration="8741000" />
+      <workItem from="1524940222427" duration="9110000" />
+      <workItem from="1524950695228" duration="912000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180798000" />
+    <option name="totallyTimeSpent" value="182079000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -573,20 +504,20 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.24160346" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.24160346" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.51391864" visible="true" weight="0.16204691" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.51391864" visible="true" weight="0.16204691" />
       <window_info id="Web" order="2" sideWeight="0.48608136" side_tool="true" weight="0.21406959" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Database Console" order="8" sideWeight="0.49848714" weight="0.1971831" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4969475" weight="0.21453694" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4969475" weight="0.21453694" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -680,12 +611,6 @@
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/29fdeddc-8159-4fb4-8b0f-e4a9c72cf852/console.sql" />
-    <entry file="file://$PROJECT_DIR$/src/com/user/Question.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/user/Reply.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2376">
@@ -724,75 +649,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://29fdeddc-8159-4fb4-8b0f-e4a9c72cf852/schema/userdb/table/transactiontable">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://29fdeddc-8159-4fb4-8b0f-e4a9c72cf852/schema/userdb/table/notetable.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="25" lean-forward="true" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://29fdeddc-8159-4fb4-8b0f-e4a9c72cf852/schema/userdb/table/question.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://29fdeddc-8159-4fb4-8b0f-e4a9c72cf852/schema/userdb/table/reply">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://29fdeddc-8159-4fb4-8b0f-e4a9c72cf852/schema/userdb/table/usertable.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" lean-forward="true" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://29fdeddc-8159-4fb4-8b0f-e4a9c72cf852/schema/userdb/table/question">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://29fdeddc-8159-4fb4-8b0f-e4a9c72cf852/schema/userdb/table/notetable">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://29fdeddc-8159-4fb4-8b0f-e4a9c72cf852/schema/userdb/table/reply.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="das://29fdeddc-8159-4fb4-8b0f-e4a9c72cf852/schema/userdb/table/transactiontable.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/servlet/UserAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ff4fbaef-2341-4250-a6ba-43ae851b75bc/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="das://29fdeddc-8159-4fb4-8b0f-e4a9c72cf852/schema/userdb/table/transactiontable" />
+    <entry file="das://29fdeddc-8159-4fb4-8b0f-e4a9c72cf852/schema/userdb/table/notetable.sql" />
+    <entry file="das://29fdeddc-8159-4fb4-8b0f-e4a9c72cf852/schema/userdb/table/question.sql" />
+    <entry file="das://29fdeddc-8159-4fb4-8b0f-e4a9c72cf852/schema/userdb/table/reply" />
+    <entry file="das://29fdeddc-8159-4fb4-8b0f-e4a9c72cf852/schema/userdb/table/usertable.sql" />
+    <entry file="das://29fdeddc-8159-4fb4-8b0f-e4a9c72cf852/schema/userdb/table/question" />
+    <entry file="das://29fdeddc-8159-4fb4-8b0f-e4a9c72cf852/schema/userdb/table/notetable" />
+    <entry file="das://29fdeddc-8159-4fb4-8b0f-e4a9c72cf852/schema/userdb/table/transactiontable.sql" />
     <entry file="das://ff4fbaef-2341-4250-a6ba-43ae851b75bc/schema/userdb/table/transactiontable.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -832,13 +696,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="88" column="44" selection-start-line="88" selection-start-column="44" selection-end-line="88" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/servlet/NoteDownload.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="94" column="77" selection-start-line="94" selection-start-column="77" selection-end-line="94" selection-end-column="77" />
         </state>
       </provider>
     </entry>
@@ -901,13 +758,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/servlet/UserLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="38" column="75" lean-forward="true" selection-start-line="36" selection-start-column="12" selection-end-line="38" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/servlet/NoteUpload.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
@@ -915,10 +765,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/servlet/UserAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/servlet/NoteIndex.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="43" column="69" selection-start-line="43" selection-start-column="64" selection-end-line="43" selection-end-column="69" />
+        <state relative-caret-position="558">
+          <caret line="44" column="83" selection-start-line="44" selection-start-column="83" selection-end-line="44" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/servlet/UserLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="39" column="122" lean-forward="true" selection-start-line="39" selection-start-column="122" selection-end-line="39" selection-end-column="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/servlet/NoteDownload.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="94" column="144" selection-start-line="94" selection-start-column="144" selection-end-line="94" selection-end-column="144" />
         </state>
       </provider>
     </entry>

@@ -37,6 +37,7 @@ public class UserLogin extends HttpServlet {
             userDao.increaseUserPeanut(userDao.queryUserPeanut(user.getUserName()),-5);
             userDao.increaseUserPeanut(userDao.queryUserPeanut("jerry"),2);
             userDao.increaseUserPeanut(userDao.queryUserPeanut("lucky"),3);
+            userDao.updateTransaction(user.getUserName(),"service provider and platform",5,"using single sign-in service");
             info="Welcome  "+user.getUserName()+"!";
             request.setAttribute("info",info);
             request.getRequestDispatcher("dashboard.jsp").forward(request, response);
