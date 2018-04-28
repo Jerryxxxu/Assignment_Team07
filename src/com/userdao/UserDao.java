@@ -131,7 +131,7 @@ public class UserDao {
         }
     }
 
-    public void updateTransaction(String sender,String submitter,int peanuts,String title){
+    public void updateTransaction(String sender,String receiver,int peanuts,String title){
         Dbmanage dbmanage = new Dbmanage();
         Connection conn = null;
         Statement sta=null;
@@ -140,10 +140,12 @@ public class UserDao {
         try {
             conn=dbmanage.initDB();
             sta=conn.createStatement();
-
-            String sql = "UPDATE transactiontable SET transaction_peanuts="+peanuts+",transaction_receiver='"+submitter+"',transaction_content='"+title+"' WHERE transaction_sender = '" + sender + "'";
+            String sql = "INSERT INTO transactiontable (transaction_sender,transaction_peanuts,transaction_receiver,transaction_content)VALUES('"
+                    +sender+"',"
+                    +peanuts+",'"
+                    +receiver+"','"
+                    +title+"')";
             sta.executeUpdate(sql);
-
             System.out.println(sql);
 
 

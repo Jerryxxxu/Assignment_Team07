@@ -23,7 +23,7 @@
 <div class="w3-top">
     <div class="w3-bar w3-dark-grey w3-wide w3-padding w3-card">
         <a href="#home" class="w3-bar-item w3-button">CloudBase</a>
-        <a href="#" class="w3-bar-item w3-button">${info}</a>
+        <a href="#" class="w3-bar-item w3-button">Balance:<%=user.getUserPeanuts()%> peanuts</a>
         <!-- Float links to the right. Hide them on small screens -->
         <div class="w3-right w3-hide-small">
             <a href="UserLogout" class="w3-bar-item w3-button">Logout</a>
@@ -33,19 +33,13 @@
     </div>
 </div>
 
-
-
-<div class="w3-padding-64"><h1>your current balance:<%=user.getUserPeanuts()%></h1></div>
-
-<div class="w3-content w3-padding" style="max-width:1564px">
+<div class="w3-content" style="max-width:1564px;padding-top: 140px" >
     <section class="w3-container">
 
-        <table class="w3-table w3-striped w3-bordered w3-card-4">
+        <table class="w3-table w3-striped w3-bordered w3-card-4" >
             <thead>
             <tr class="w3-teal">
-                <th>Receiver</th>
-                <th>Content</th>
-                <th>Peanuts</th>
+                <th>History</th>
 
             </tr>
             </thead>
@@ -57,9 +51,7 @@
                 Transaction transaction = list.get(i);%>
 
             <tr align="center" >
-                <td><%=transaction.getTransactionReceiver() %></td>
-                <td><%=transaction.getTransactionContent()%></td>
-                <td><%=transaction.setTransactionPeanuts()%></td>
+                <td><%=i+1%>.you paid <%=transaction.getTransactionReceiver() %> <%=transaction.getTransactionPeanuts()%> peanuts for <%=transaction.getTransactionContent()%></td>
             </tr>
             <%
                 }

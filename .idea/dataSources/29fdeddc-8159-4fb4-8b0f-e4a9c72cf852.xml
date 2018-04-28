@@ -2,14 +2,14 @@
 <dataSource name="@localhost">
   <database-model serializer="dbm" rdbms="MYSQL" format-version="4.7">
     <root id="1">
-      <DefaultCasing>mixed/mixed</DefaultCasing>
+      <DefaultCasing>lower/lower</DefaultCasing>
     </root>
     <schema id="2" parent="1" name="information_schema">
       <Current>1</Current>
       <Collation>utf8_general_ci</Collation>
     </schema>
     <schema id="3" parent="1" name="mysql">
-      <Collation>latin1_swedish_ci</Collation>
+      <Collation>utf8_general_ci</Collation>
     </schema>
     <schema id="4" parent="1" name="performance_schema">
       <Collation>utf8_general_ci</Collation>
@@ -19,7 +19,7 @@
     </schema>
     <schema id="6" parent="1" name="userdb">
       <Visible>1</Visible>
-      <Collation>utf8_bin</Collation>
+      <Collation>utf8_general_ci</Collation>
     </schema>
     <collation id="7" parent="1" name="armscii8_bin">
       <Charset>armscii8</Charset>
@@ -914,11 +914,9 @@
     </table>
     <table id="230" parent="6" name="question">
       <Engine>InnoDB</Engine>
-      <Collation>utf8_general_ci</Collation>
     </table>
     <table id="231" parent="6" name="reply">
       <Engine>InnoDB</Engine>
-      <Collation>utf8_general_ci</Collation>
     </table>
     <table id="232" parent="6" name="transactiontable">
       <Engine>InnoDB</Engine>
@@ -928,65 +926,64 @@
     </table>
     <column id="234" parent="229" name="note_id">
       <Position>1</Position>
-      <DataType>int(11)|0</DataType>
+      <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="235" parent="229" name="note_type">
+    <column id="235" parent="229" name="note_title">
       <Position>2</Position>
-      <DataType>varchar(255)|0</DataType>
+      <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="236" parent="229" name="note_title">
+    <column id="236" parent="229" name="note_type">
       <Position>3</Position>
-      <DataType>varchar(255)|0</DataType>
+      <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="237" parent="229" name="note_size">
       <Position>4</Position>
-      <DataType>bigint(20)|0</DataType>
+      <DataType>bigint(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="238" parent="229" name="note_description">
       <Position>5</Position>
-      <DataType>varchar(255)|0</DataType>
+      <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="239" parent="229" name="note_submitter">
+    <column id="239" parent="229" name="note_file">
       <Position>6</Position>
-      <DataType>varchar(255)|0</DataType>
+      <DataType>longblob|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="240" parent="229" name="note_file">
+    <column id="240" parent="229" name="user_id">
       <Position>7</Position>
-      <DataType>mediumblob|0</DataType>
+      <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="241" parent="229" name="user_id">
+    <column id="241" parent="229" name="note_submitter">
       <Position>8</Position>
-      <DataType>int(11)|0</DataType>
+      <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="242" parent="229" name="number_of_pages">
       <Position>9</Position>
-      <DataType>int(11)|0</DataType>
+      <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="243" parent="229" name="download_times">
       <Position>10</Position>
-      <DataType>int(11)|0</DataType>
-      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="244" parent="229" name="submitting_time">
       <Position>11</Position>
-      <DataType>varchar(255)|0</DataType>
+      <DataType>datetime|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="245" parent="229" name="download_peanuts">
       <Position>12</Position>
-      <DataType>int(11)|0</DataType>
+      <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <index id="246" parent="229" name="user_id">
@@ -1005,34 +1002,34 @@
     </foreign-key>
     <column id="249" parent="230" name="question_id">
       <Position>1</Position>
-      <DataType>int(10)|0</DataType>
+      <DataType>int(10)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="250" parent="230" name="question_info">
       <Position>2</Position>
-      <DataType>text|0</DataType>
+      <DataType>text|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="251" parent="230" name="question_user">
       <Position>3</Position>
-      <DataType>int(10)|0</DataType>
+      <DataType>int(10)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="252" parent="230" name="question_bestreply">
       <Position>4</Position>
-      <DataType>int(10)|0</DataType>
+      <DataType>int(10)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="253" parent="230" name="questionusername">
       <Position>5</Position>
-      <DataType>varchar(100)|0</DataType>
+      <DataType>varchar(100)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="254" parent="230" name="questiontime">
       <Position>6</Position>
-      <DataType>varchar(100)|0</DataType>
+      <DataType>varchar(100)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <key id="255" parent="230" name="PRIMARY">
@@ -1042,34 +1039,34 @@
     </key>
     <column id="256" parent="231" name="reply_id">
       <Position>1</Position>
-      <DataType>int(10)|0</DataType>
+      <DataType>int(10)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="257" parent="231" name="reply_info">
       <Position>2</Position>
-      <DataType>text|0</DataType>
+      <DataType>text|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="258" parent="231" name="reply_question">
       <Position>3</Position>
-      <DataType>int(10)|0</DataType>
+      <DataType>int(10)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="259" parent="231" name="reply_user">
       <Position>4</Position>
-      <DataType>int(10)|0</DataType>
+      <DataType>int(10)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="260" parent="231" name="reply_time">
       <Position>5</Position>
-      <DataType>varchar(100)|0</DataType>
+      <DataType>varchar(100)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="261" parent="231" name="replyusername">
       <Position>6</Position>
-      <DataType>varchar(100)|0</DataType>
+      <DataType>varchar(100)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <key id="262" parent="231" name="PRIMARY">
@@ -1079,29 +1076,29 @@
     </key>
     <column id="263" parent="232" name="transaction_id">
       <Position>1</Position>
-      <DataType>int(11)|0</DataType>
+      <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="264" parent="232" name="transaction_peanuts">
       <Position>2</Position>
-      <DataType>bigint(20)|0</DataType>
+      <DataType>bigint(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="265" parent="232" name="transaction_receiver">
       <Position>3</Position>
-      <DataType>varchar(255)|0</DataType>
+      <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="266" parent="232" name="transaction_content">
       <Position>4</Position>
-      <DataType>varchar(255)|0</DataType>
+      <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="267" parent="232" name="transaction_sender">
       <Position>5</Position>
-      <DataType>varchar(255)|0</DataType>
+      <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <key id="268" parent="232" name="PRIMARY">
@@ -1111,32 +1108,33 @@
     </key>
     <column id="269" parent="233" name="user_id">
       <Position>1</Position>
-      <DataType>int(11)|0</DataType>
+      <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="270" parent="233" name="user_name">
       <Position>2</Position>
-      <DataType>varchar(255)|0</DataType>
+      <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="271" parent="233" name="user_password">
       <Position>3</Position>
-      <DataType>varchar(255)|0</DataType>
+      <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="272" parent="233" name="user_peanut">
       <Position>4</Position>
-      <DataType>int(255)|0</DataType>
+      <DataType>int(255)|0s</DataType>
       <DefaultExpression>&apos;1000&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="273" parent="233" name="user_role">
       <Position>5</Position>
-      <DataType>varchar(255)|0</DataType>
+      <DataType>varchar(255)|0s</DataType>
       <DefaultExpression>&apos;common_user&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
+      <Collation>utf8_bin</Collation>
     </column>
     <key id="274" parent="233" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
