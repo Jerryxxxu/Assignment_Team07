@@ -97,6 +97,7 @@ public class UserDao {
             rs = sta.executeQuery(sql);
             while(rs.next()){
                 user=new User();
+                user.setRole(rs.getString("user_role"));
                 user.setUserName(rs.getString("user_name"));
                 user.setUserPeanuts(rs.getInt("user_peanut"));
                 System.out.println(user.getUserPeanuts());

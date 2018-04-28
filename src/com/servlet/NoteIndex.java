@@ -3,6 +3,7 @@ package com.servlet;
 import com.user.Note;
 import com.user.User;
 import com.userdao.NoteDao;
+import com.userdao.UserDao;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -28,6 +29,8 @@ public class NoteIndex extends HttpServlet {
         User user=(User)session.getAttribute("user");
         String info="";
 
+        UserDao userDao=new UserDao();
+
         PrintWriter out=response.getWriter();
         if (user==null){
             out.print("<script language='javascript'>alert('You haven't log in,please log in first');window.location.href='login.jsp';</script>");
@@ -35,6 +38,10 @@ public class NoteIndex extends HttpServlet {
             info="Welcome "+user.getUserName();
 
             NoteDao notedao =new NoteDao();
+
+            userDao.increaseUserPeanut(userDao.queryUserPeanut(user.getUserName()),-5);
+            userDao.increaseUserPeanut(userDao.queryUserPeanut("jerry"),2);
+            userDao.increaseUserPeanut(userDao.queryUserPeanut("sakine"),3);
 
             ArrayList<Note> list=notedao.selectAllNotes();
             request.setAttribute("list", list);

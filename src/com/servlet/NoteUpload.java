@@ -32,8 +32,10 @@ public class NoteUpload extends HttpServlet {
         //String noteType = request.getParameter("noteType");
         int noteDownloadPeanuts=Integer.parseInt(request.getParameter("downloadPeanuts"));
         String noteType =null;
+
         SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         String submittingTime=df.format(new Date());
+
         String noteDescription=request.getParameter("noteDescription");
 
         User user=(User)session.getAttribute("user");

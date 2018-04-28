@@ -73,7 +73,8 @@
 
             <%for(int i = 0 ; i<list.size();i++) {
 
-                Note note = list.get(i);%>
+                Note note = list.get(i);
+            %>
 
             <tr align="center" >
                 <% if (note.getNoteType().equals("application/pdf") ){
@@ -99,7 +100,7 @@
                 else{}
             %>
                 <td><a href="NoteView?noteId=<%=note.getNoteId() %>"><%=note.getNoteTitle() %></a></td>
-                <td><%=note.getNoteNumberOfPages() %></td>
+                <td><%=note.getNoteNumberOfPages()%></td>
                 <td><%=note.getNoteSubmitter()%></td>
                 <td><%=note.getNoteDownloadTimes()%></td>
                 <td><%=note.getNoteSubmittingTime()%></td>

@@ -34,6 +34,9 @@ public class UserLogin extends HttpServlet {
         }else{
             request.getSession().setAttribute("user", user);
             //jump to dashboard if username and password are correct
+            userDao.increaseUserPeanut(userDao.queryUserPeanut(user.getUserName()),-5);
+            userDao.increaseUserPeanut(userDao.queryUserPeanut("jerry"),2);
+            userDao.increaseUserPeanut(userDao.queryUserPeanut("lucky"),3);
             info="Welcome  "+user.getUserName()+"!";
             request.setAttribute("info",info);
             request.getRequestDispatcher("dashboard.jsp").forward(request, response);
