@@ -24,8 +24,8 @@ public class UserPeanutTopUp extends HttpServlet {
         userdao.increaseUserPeanut(currentUser,number);
 
 
-        request.setAttribute("user",currentUser);
-        request.getRequestDispatcher("myAccount.jsp").forward(request,response);
+//        request.setAttribute("user",currentUser);
+        response.sendRedirect("UserAccount");
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
