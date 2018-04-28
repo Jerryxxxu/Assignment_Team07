@@ -33,12 +33,10 @@
             font-family: "Times New Roman", Times, serif;
             font-size: 20px;
         }
-
         h2{
             font-family: "Times New Roman", Times, serif;
             font-size: 25px;
         }
-
     </style>
 </head>
 <body>
@@ -62,47 +60,30 @@
                 <thead>
                 <tr class="w3-teal">
                     <th  height="100px" style="text-align: center"  > <h2>File Upload to Database Demo </h2></th>
-
                 </tr>
                 </thead>
-
                 <tr>
-                    <td >
-                        <p >
-                            Note Title </p> <input style="padding-right: 10px" type="text" name="noteTitle" size="100"/>
-                    </td>
+                    <td ><p >Note Title </p> <input style="padding-right: 10px" type="text" name="noteTitle" size="100"/></td>
                 </tr>
                 <tr>
                     <td >
-                        <p >
-                            Please write a short description about your note: </p> <input style=" height: 200px; padding-right: 10px" type="text"  name="noteDescription" size="100"/>
+                        <p >Please write a short description about your note: </p>
+                        <input type="textarea" name="noteDescription" size="100" style="height: 200px; padding-right: 10px;"/>
                     </td>
                 </tr>
 
                 <tr>
-                    <td >
-                        <p>
-                            Note file </p> <input style="padding-right: 10px" type="file" name="noteFile" size="100"/>
-                    </td>
+                    <td ><p>Note file </p> <input style="padding-right: 10px" type="file" name="noteFile" size="100"/></td>
                 </tr>
                 <tr>
-                    <td >
-                        <p>
-                            Peanuts you want </p> <input style="padding-right: 10px" type="text" name="downloadPeanuts" size="100"/>
-                    </td>
+                    <td ><p>Peanuts you want </p> <input style="padding-right: 10px" type="text" name="downloadPeanuts" size="100"/></td>
                 </tr>
                 <tr>
-                    <td >
-                        <input type="submit" class="button" align="right"  value="Upload">
-                    </td>
-
+                    <td ><input type="submit" class="button" align="right"  value="Upload"></td>
                 </tr>
-
             </table>
-
             <br>
             <br>
-
         </form>
         <br>
         <br>
