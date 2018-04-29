@@ -112,7 +112,7 @@
         <br>
         <br>
 
-        <button class="w3-button w3-red" style="margin-left: 20px;" onclick="window.location.href='uploadNotes.jsp'">Upload</button>
+        <button class="w3-button w3-red" onclick="window.location.href='uploadNotes.jsp'">Upload</button>
         <br>
         <br>
     </section>

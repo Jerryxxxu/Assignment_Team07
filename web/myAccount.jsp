@@ -22,13 +22,11 @@
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
     <div class="w3-bar w3-dark-grey w3-wide w3-padding w3-card">
-        <a href="#home" class="w3-bar-item w3-button">CloudBase</a>
+        <a href="dashboard.jsp" class="w3-bar-item w3-button">CloudBase</a>
         <a href="#" class="w3-bar-item w3-button">Balance:<%=user.getUserPeanuts()%> peanuts</a>
         <!-- Float links to the right. Hide them on small screens -->
         <div class="w3-right w3-hide-small">
             <a href="UserLogout" class="w3-bar-item w3-button">Logout</a>
-            <a href="UserAccount" class="w3-bar-item w3-button">Account</a>
-            <a href="#" class="w3-bar-item w3-button">Contact Us</a>
         </div>
     </div>
 </div>
@@ -39,7 +37,7 @@
         <table class="w3-table w3-striped w3-bordered w3-card-4" >
             <thead>
             <tr class="w3-teal">
-                <th>History</th>
+                <th>Payment History</th>
 
             </tr>
             </thead>
@@ -51,7 +49,7 @@
                 Transaction transaction = list.get(i);%>
 
             <tr align="center" >
-                <td><%=i+1%>.you paid <%=transaction.getTransactionReceiver() %> <%=transaction.getTransactionPeanuts()%> peanuts for <%=transaction.getTransactionContent()%></td>
+                <td><%=i+1%>.You paid <%=transaction.getTransactionReceiver() %> <%=transaction.getTransactionPeanuts()%> peanuts for <%=transaction.getTransactionContent()%>.</td>
             </tr>
             <%
                 }
@@ -60,7 +58,8 @@
         <br>
         <br>
 
-        <button class="w3-button w3-red" style="margin-left: 20px;" onclick="window.location.href='peanutTopUp.jsp'">Top up</button>
+        <button class="w3-button w3-red" onclick="window.location.href='peanutTopUp.jsp'">Top up</button>
+        <button class="w3-button w3-red" onclick="window.location.href='dashboard.jsp'"> Back </button>
         <br>
         <br>
     </section>
