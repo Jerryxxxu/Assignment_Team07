@@ -9,17 +9,7 @@
     <list default="true" id="ecd4cb8b-87e4-49e7-bb7a-3d9f9ebfe9ad" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/Assignment_Team07_war exploded.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/Assignment_Team07_war exploded.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/servlet/QuestionReply.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/servlet/QuestionReply.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/user/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/userdao/QuestionReplyDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/userdao/QuestionReplyDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/userdao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/userdao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/servlet/QuestionReply.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/servlet/QuestionReply.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/user/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/user/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/userdao/QuestionReplyDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/userdao/QuestionReplyDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/userdao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/userdao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/dashboard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/dashboard.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/problemReply.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/problemReply.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/problemSolving.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/problemSolving.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/myNotes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/myNotes.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/sharingNotes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/sharingNotes.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -67,17 +57,54 @@
       <file leaf-file-name="dashboard.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/dashboard.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
-              <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
+            <state relative-caret-position="310">
+              <caret line="18" column="75" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="75" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/userdao/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1494">
+            <state relative-caret-position="396">
               <caret line="101" column="53" selection-start-line="101" selection-start-column="53" selection-end-line="101" selection-end-column="53" />
+              <folding>
+                <element signature="e#5786#5799#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sharingNotes.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/sharingNotes.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="82" column="159" lean-forward="true" selection-start-line="82" selection-start-column="159" selection-end-line="82" selection-end-column="159" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#a#0;n#td#0;n#tr#0;n#table#0;n#section#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="showNoteDetails.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/showNoteDetails.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myNotes.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/myNotes.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="127" column="59" lean-forward="true" selection-start-line="127" selection-start-column="59" selection-end-line="127" selection-end-column="59" />
+              <folding>
+                <element signature="n#style#0;n#input#1;n#form#0;n#section#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#2;n#form#0;n#section#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,19 +127,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyQuestion.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/servlet/MyQuestion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="QuestionReply.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/servlet/QuestionReply.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
+            <state relative-caret-position="1026">
               <caret line="57" column="64" selection-start-line="57" selection-start-column="64" selection-end-line="57" selection-end-column="64" />
             </state>
           </provider>
@@ -169,7 +187,6 @@
         <option value="$PROJECT_DIR$/web/updatingNotes.jsp" />
         <option value="$PROJECT_DIR$/web/uploadNotes.jsp" />
         <option value="$PROJECT_DIR$/src/com/user/Note.java" />
-        <option value="$PROJECT_DIR$/web/myNotes.jsp" />
         <option value="$PROJECT_DIR$/src/com/userdao/NoteDao.java" />
         <option value="$PROJECT_DIR$/src/com/user/Transaction.java" />
         <option value="$PROJECT_DIR$/src/com/servlet/UserAccount.java" />
@@ -186,7 +203,6 @@
         <option value="$PROJECT_DIR$/src/com/servlet/UserIndex.java" />
         <option value="$PROJECT_DIR$/web/myAccount.jsp" />
         <option value="$PROJECT_DIR$/src/com/servlet/NoteDownload.java" />
-        <option value="$PROJECT_DIR$/web/sharingNotes.jsp" />
         <option value="$PROJECT_DIR$/src/com/servlet/MyQuestion.java" />
         <option value="$PROJECT_DIR$/src/com/userdao/QuestionReplyDao.java" />
         <option value="$PROJECT_DIR$/src/com/servlet/QuestionIndex.java" />
@@ -196,6 +212,8 @@
         <option value="$PROJECT_DIR$/web/problemSolving.jsp" />
         <option value="$PROJECT_DIR$/src/com/user/User.java" />
         <option value="$PROJECT_DIR$/src/com/userdao/UserDao.java" />
+        <option value="$PROJECT_DIR$/web/sharingNotes.jsp" />
+        <option value="$PROJECT_DIR$/web/myNotes.jsp" />
       </list>
     </option>
   </component>
@@ -224,8 +242,8 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1374" />
-    <option name="y" value="-8" />
+    <option name="x" value="-1049" />
+    <option name="y" value="2" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -237,7 +255,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -305,6 +322,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -522,11 +540,13 @@
       <workItem from="1525031747357" duration="1736000" />
       <workItem from="1525038226225" duration="257000" />
       <workItem from="1525039036851" duration="359000" />
+      <workItem from="1525039426697" duration="247000" />
+      <workItem from="1525043176780" duration="580000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186114000" />
+    <option name="totallyTimeSpent" value="186941000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -560,10 +580,10 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.34042552" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.34042552" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.51391864" visible="true" weight="0.204236" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.51391864" visible="true" weight="0.22012103" />
       <window_info id="Web" order="2" sideWeight="0.48608136" side_tool="true" weight="0.21406959" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -625,13 +645,6 @@
     </entry>
     <entry file="das://src:table:/6be09731/d1c17836-5103-4538-b567-6d6ed9c5e89a/userdb.usertable" />
     <entry file="das://src:table:/6be09731/d1c17836-5103-4538-b567-6d6ed9c5e89a/userdb.notetable" />
-    <entry file="file://$PROJECT_DIR$/web/myNotes.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="47" column="102" selection-start-line="47" selection-start-column="102" selection-end-line="47" selection-end-column="102" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://src:table:/6be09731/29fdeddc-8159-4fb4-8b0f-e4a9c72cf852/userdb.notetable" />
     <entry file="das://table:/6be09731/29fdeddc-8159-4fb4-8b0f-e4a9c72cf852/userdb.notetable" />
     <entry file="das://table:/6be09731/29fdeddc-8159-4fb4-8b0f-e4a9c72cf852/userdb.usertable" />
@@ -715,13 +728,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/showNoteDetails.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -778,16 +784,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/sharingNotes.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="97" column="118" selection-start-line="97" selection-start-column="118" selection-end-line="97" selection-end-column="118" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#td#4;n#tr#0;n#table#0;n#section#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/userdao/QuestionReplyDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -797,7 +793,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/servlet/MyQuestion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="324">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
@@ -813,13 +809,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/dashboard.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -846,15 +835,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/servlet/QuestionReply.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
+        <state relative-caret-position="1026">
           <caret line="57" column="64" selection-start-line="57" selection-start-column="64" selection-end-line="57" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/userdao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1494">
+        <state relative-caret-position="396">
           <caret line="101" column="53" selection-start-line="101" selection-start-column="53" selection-end-line="101" selection-end-column="53" />
+          <folding>
+            <element signature="e#5786#5799#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/dashboard.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="18" column="75" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/sharingNotes.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="82" column="159" lean-forward="true" selection-start-line="82" selection-start-column="159" selection-end-line="82" selection-end-column="159" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#td#0;n#tr#0;n#table#0;n#section#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/showNoteDetails.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/myNotes.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="127" column="59" lean-forward="true" selection-start-line="127" selection-start-column="59" selection-end-line="127" selection-end-column="59" />
+          <folding>
+            <element signature="n#style#0;n#input#1;n#form#0;n#section#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#2;n#form#0;n#section#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

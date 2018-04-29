@@ -82,7 +82,32 @@
                 Note note = list.get(i);%>
             <tr align="center" >
                 <td><input type = "checkbox"  value ='<%=note.getNoteId() %>' name="num"/></td>
-                <td><%=note.getNoteType() %></td>
+                <% if (note.getNoteType().equals("application/pdf") ){
+                %>
+                <td><img src="images/pdf.png" alt="" style="width: 50px;height: 50px"></td><%}
+            else if(note.getNoteType().equals("application/vnd.openxmlformats-officedocument.wordprocessingml.document")){
+            %>
+                <td><img src="images/word.jpg" alt="" style="width: 50px;height: 50px"></td><%
+            }
+            else if(note.getNoteType().equals("image/jpeg")){
+            %>
+                <td><img src="images/image.jpeg" alt="" style="width: 50px;height: 50px"></td><%
+            }
+            else if(note.getNoteType().equals("image/png")){
+            %>
+                <td><img src="images/image.jpeg" alt="" style="width: 50px;height: 50px"></td><%
+            }
+
+            else if(note.getNoteType().equals("application/vnd.openxmlformats-officedocument.presentationml.presentation")){
+            %>
+                <td><img src="images/ppt.png" alt="" style="width: 50px;height: 50px"></td><%
+            }
+            else if(note.getNoteType().equals("application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")){
+            %>
+                <td><img src="images/xls.jpg" alt="" style="width: 50px;height: 50px"></td><%
+                }
+                else{}
+            %>
                 <td><%=note.getNoteTitle() %></td>
                 <td><%=note.getNoteNumberOfPages() %></td>
                 <td><%=note.getNoteSubmitter()%></td>
@@ -98,7 +123,7 @@
 
         <br>
         <br>
-            <input type="button" value="checkall" style="margin-left: 20px;" name="checkall" id = "checkall" onclick="checkAll()">
+            <input type="button" value="checkall" name="checkall" id = "checkall" onclick="checkAll()">
             <input type="button" value="uncheckall" style="margin-left: 20px;" name="nocheck" id = "nocheck" onclick="Nocheck()">
             <input type="submit" value="delete all" style="margin-left: 20px;">
         </form>

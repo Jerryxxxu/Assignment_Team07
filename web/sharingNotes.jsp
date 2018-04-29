@@ -39,7 +39,8 @@
         <a href="dashboard.jsp" class="w3-bar-item  w3-button fa fa-home" style="font-size: 25px">Home</a>
         <a href="#" class="w3-bar-item  w3-button">${welcome}</a>
         <div class="w3-right w3-hide-small">
-            <a href="#" class="w3-bar-item w3-button">Upload</a>
+            <a href="uploadNotes.jsp" class="w3-bar-item w3-button">Upload</a>
+            <a href="UserAccount" class="w3-bar-item w3-button">Account</a>
             <a href="UserNoteList" class="w3-bar-item w3-button">My Notes</a>
 
         </div>
@@ -85,6 +86,10 @@
                 <td><a href="javascript:payDownloadPeanuts(<%=note.getNoteDownloadPeanuts() %>,<%=note.getNoteId()%>)"><img src="images/word.jpg" alt="" style="width: 50px;height: 50px"></a></td><%
             }
             else if(note.getNoteType().equals("image/jpeg")){
+            %>
+                <td><a href="javascript:payDownloadPeanuts(<%=note.getNoteDownloadPeanuts() %>,<%=note.getNoteId()%>)"><img src="images/image.jpeg" alt="" style="width: 50px;height: 50px"></a></td><%
+            }
+            else if(note.getNoteType().equals("image/png")){
             %>
                 <td><a href="javascript:payDownloadPeanuts(<%=note.getNoteDownloadPeanuts() %>,<%=note.getNoteId()%>)"><img src="images/image.jpeg" alt="" style="width: 50px;height: 50px"></a></td><%
             }
