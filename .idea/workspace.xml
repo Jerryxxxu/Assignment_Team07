@@ -7,14 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ecd4cb8b-87e4-49e7-bb7a-3d9f9ebfe9ad" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment_Team07.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment_Team07.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/Assignment_Team07_war exploded.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded/Assignment_Team07_war exploded.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/servlet/NoteDownload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/servlet/NoteDownload.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/servlet/UserIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/servlet/UserIndex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/servlet/UserIndex.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/servlet/UserIndex.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/myAccount.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/myAccount.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sharingNotes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/sharingNotes.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/servlet/QuestionReply.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/servlet/QuestionReply.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,11 +38,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="NoteDownload.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NoteDownload.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/servlet/NoteDownload.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="94" column="197" selection-start-line="94" selection-start-column="197" selection-end-line="94" selection-end-column="197" />
+            <state relative-caret-position="315">
+              <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuestionReply.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/servlet/QuestionReply.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="341">
+              <caret line="40" column="71" selection-start-line="40" selection-start-column="71" selection-end-line="40" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -116,15 +118,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="414">
               <caret line="114" column="79" lean-forward="true" selection-start-line="114" selection-start-column="79" selection-end-line="114" selection-end-column="79" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="showNoteDetails.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/showNoteDetails.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
             </state>
           </provider>
         </entry>
@@ -198,7 +191,6 @@
         <option value="$PROJECT_DIR$/src/com/user/Transaction.java" />
         <option value="$PROJECT_DIR$/src/com/servlet/UserAccount.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/29fdeddc-8159-4fb4-8b0f-e4a9c72cf852/console.sql" />
-        <option value="$PROJECT_DIR$/src/com/servlet/QuestionReply.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/com/userdao/QuestionReplyDao.java" />
         <option value="$PROJECT_DIR$/web/problemSolving.jsp" />
@@ -216,6 +208,7 @@
         <option value="$PROJECT_DIR$/web/sharingNotes.jsp" />
         <option value="$PROJECT_DIR$/web/myAccount.jsp" />
         <option value="$PROJECT_DIR$/src/com/servlet/NoteDownload.java" />
+        <option value="$PROJECT_DIR$/src/com/servlet/QuestionReply.java" />
       </list>
     </option>
   </component>
@@ -525,12 +518,12 @@
       <workItem from="1524938045082" duration="136000" />
       <workItem from="1524940222427" duration="9110000" />
       <workItem from="1524950695228" duration="912000" />
-      <workItem from="1524988010159" duration="1233000" />
+      <workItem from="1524988010159" duration="1519000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="183312000" />
+    <option name="totallyTimeSpent" value="183598000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -682,13 +675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2376">
           <caret line="132" column="14" selection-start-line="132" selection-start-column="14" selection-end-line="132" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/servlet/QuestionReply.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="683">
-          <caret line="86" column="47" lean-forward="true" selection-start-line="86" selection-start-column="47" selection-end-line="86" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -873,8 +859,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/servlet/NoteDownload.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="94" column="197" selection-start-line="94" selection-start-column="197" selection-end-line="94" selection-end-column="197" />
+        <state relative-caret-position="315">
+          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/servlet/QuestionReply.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="40" column="71" selection-start-line="40" selection-start-column="71" selection-end-line="40" selection-end-column="71" />
         </state>
       </provider>
     </entry>

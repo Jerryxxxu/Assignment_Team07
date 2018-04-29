@@ -31,8 +31,13 @@
     </div>
 </div>
 
+
 <div class="w3-content" style="max-width:1564px;padding-top: 140px" >
     <section class="w3-container">
+        <button class="w3-button w3-red" onclick="window.location.href='peanutTopUp.jsp'">Top up</button>
+        <button class="w3-button w3-red" onclick="window.location.href='dashboard.jsp'"> Back </button>
+        <br>
+        <br>
 
         <table class="w3-table w3-striped w3-bordered w3-card-4" >
             <thead>

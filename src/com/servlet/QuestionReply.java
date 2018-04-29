@@ -38,7 +38,7 @@ public class QuestionReply extends HttpServlet {
             //the peanuts number
             userdao.increaseUserPeanut(user, user.getUserPeanuts()-50);
             User suser=userdao.queryUserPeanut("stefan");
-            userdao.increaseUserPeanut(suser, 20);
+            userdao.increaseUserPeanut(suser, suser.getUserPeanuts()+20);
             List<Question> questionlist=qro.queryAllQuestion();
             request.setAttribute("questionlist", questionlist);
             request.getRequestDispatcher("problemSolving.jsp").forward(request, response);
