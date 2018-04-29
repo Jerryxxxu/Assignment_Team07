@@ -41,7 +41,7 @@
         return;
     }
 %>
-<div class="w3-top">
+<div class="">
     <div class="w3-bar w3-light-grey">
         <a href="dashboard.jsp" class="w3-bar-item w3-large w3-button ">Home</a>
         <a class="w3-bar-item w3-text w3-text-pink w3-large w3-tangerine">Welcome ${user.userName}!</a>
@@ -58,45 +58,55 @@
     </div>
     <div class="w3-container w3-text-black">
         <div class="w3-display-container w3-text-black w3-tangerine"align="center">
-            <img src="http://img3.imgtn.bdimg.com/it/u=3111526370,1353314867&fm=11&gp=0.jpg" class="w3-circle" alt="Norway" align="middle"  style="width:100%;height:6.5cm">
+            <img src="images/question.jpg" class="w3-circle" alt="Norway" align="middle"  style="width:100%;height:6.5cm">
             <div class="w3-display-middle w3-jumbo">Problem and Solving</div>
         </div>
         <div class="w3-large">Reply Lists:</div>
     </div>
-     <form action="QuestionReply" method="post">
-    <input type="hidden" name="methodname" value="addBestReply">
-    <input type="hidden" name="questionid" value="${question.questionId}">
-    <div class="w3-container">
-        <div class="w3-panel w3-pale-blue w3-leftbar w3-rightbar w3-border-blue">
-       <div class="w3-text w3-large">${question.questionInfo } :</div>
-        <c:forEach var="rl" items="${replylist}">
-            <div class="w3-text w3-text-red w3-large">${rl.replyInfo }
-            	<c:if test="${question.questionUser==user.userId}">
-            	<input type="radio" name="bestanswer"
-            	 <c:if test="${question.questionBestReply==rl.replyId}"> checked="checked"</c:if>
-            	  value="${rl.replyId }">
-            	</c:if>
-            </div>
-            <div class="w3-text w3-text-brown">Post by ${rl.replyusername} at ${rl.replyTime}.</div>
-		</c:forEach>
-		<c:if test="${question.questionUser==user.userId&&question.questionBestReply=='0'}">
-    	<input class="w3-button w3-black w3-round-large" type="submit" value="best reply"/>
-		</c:if>
-        </div>
-	</form>
-    </div>
     <form action="QuestionReply" method="post">
+        <input type="hidden" name="methodname" value="addBestReply">
+        <input type="hidden" name="questionid" value="${question.questionId}">
+        <div class="w3-container">
+            <div class="w3-panel w3-pale-blue w3-leftbar w3-rightbar w3-border-blue">
+                <div class="w3-text w3-large">${question.questionInfo } :</div>
+                <c:forEach var="rl" items="${replylist}" varStatus="status">
+                    <div class="w3-text w3-text-red w3-large">${status.count}.${rl.replyInfo }
+                        <c:if test="${question.questionUser==user.userId}">
+                            <input type="radio" name="bestanswer"
+                            <c:if test="${question.questionBestReply==rl.replyId}"> checked="checked"</c:if>
+                                   value="${rl.replyId }">
+                        </c:if>
+                    </div>
+                    <div class="w3-text w3-text-brown">Post by ${rl.replyusername} at ${rl.replyTime}.</div>
+                </c:forEach>
+                <c:if test="${empty replylist}">
+                    No reply!
+                </c:if>
+                <c:if test="${question.questionUser==user.userId&&question.questionBestReply=='0'}">
+
+                    <c:if test="${!empty replylist}">
+                        <input class="w3-button w3-black w3-round-large" type="submit" value="best reply"/>
+                    </c:if>
+
+                </c:if>
+            </div>
+    </form>
+
+</div>
+
+<form action="QuestionReply" method="post">
     <input type="hidden" name="methodname" value="addReply">
     <input type="hidden" name="questionid" value="${question.questionId}">
     <c:if test="${question.questionUser!=user.userId}">
     <div class="w3-container">
         <div class="w3-large">Your Reply</div>
         <div class="w3-left-align ">
-        <p><input type="text" name="replyInfo"/></p></div>
+            <p><textarea name="replyInfo" cols="100" rows="8" placeholder="please input your reply!"></textarea></p></div>
     </div>
-    	<input class="w3-button w3-black w3-round-large" type="submit" value="Submit"/>
-    </form>
-    </c:if>
+    <input class="w3-button w3-black w3-round-large" type="submit" value="Submit"/>
+</form>
+
+</c:if>
 </div>
 
 </body>

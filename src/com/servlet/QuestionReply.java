@@ -36,9 +36,14 @@ public class QuestionReply extends HttpServlet {
             question.setQuestiontime(new Date().toString());
             qro.insertQuestion(question);
             //the peanuts number
-            userdao.increaseUserPeanut(user, user.getUserPeanuts()-50);
+
+            userdao.updateUserPeanut(user, user.getUserPeanuts()-50);
+            userdao.updateTransaction(user.getUserName(),"app provider and platform",50,"submitting a problem");
+            System.out.println("the current user massage :"+user.toString());
             User suser=userdao.queryUserPeanut("stefan");
-            userdao.increaseUserPeanut(suser, suser.getUserPeanuts()+20);
+            userdao.increaseUserPeanut(suser, 30);
+            User jsuser=userdao.queryUserPeanut("jerry");
+            userdao.increaseUserPeanut(jsuser, 20);
             List<Question> questionlist=qro.queryAllQuestion();
             request.setAttribute("questionlist", questionlist);
             request.getRequestDispatcher("problemSolving.jsp").forward(request, response);
@@ -72,6 +77,7 @@ public class QuestionReply extends HttpServlet {
             User user=userdao.queryUserPeanut(reply.getReplyusername());
             //get the best replay and give the peanuts to the customer
             qro.updateUserPeanut(user.getUserId(), user.getUserPeanuts()+30);
+            userdao.updateTransaction(((User)(request.getSession().getAttribute("user"))).getUserName(),"replayer",30,"Best replay");
             request.getRequestDispatcher("problemReply.jsp").forward(request, response);
 
         }

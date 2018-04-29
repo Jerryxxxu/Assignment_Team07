@@ -82,20 +82,20 @@
                 <td><a href="javascript:payDownloadPeanuts(<%=note.getNoteDownloadPeanuts() %>,<%=note.getNoteId()%>)"><img src="images/pdf.png" alt="" style="width: 50px;height: 50px"></a></td><%}
             else if(note.getNoteType().equals("application/vnd.openxmlformats-officedocument.wordprocessingml.document")){
             %>
-                <td><a href="NoteDownload?id=<%=note.getNoteId() %>"><img src="images/word.jpg" alt="" style="width: 50px;height: 50px"></a></td><%
+                <td><a href="javascript:payDownloadPeanuts(<%=note.getNoteDownloadPeanuts() %>,<%=note.getNoteId()%>)"><img src="images/word.jpg" alt="" style="width: 50px;height: 50px"></a></td><%
             }
             else if(note.getNoteType().equals("image/jpeg")){
             %>
-                <td><a href="NoteDownload?id=<%=note.getNoteId() %>"><img src="images/image.jpeg" alt="" style="width: 50px;height: 50px"></a></td><%
+                <td><a href="javascript:payDownloadPeanuts(<%=note.getNoteDownloadPeanuts() %>,<%=note.getNoteId()%>)"><img src="images/image.jpeg" alt="" style="width: 50px;height: 50px"></a></td><%
             }
 
             else if(note.getNoteType().equals("application/vnd.openxmlformats-officedocument.presentationml.presentation")){
             %>
-                <td><a href="NoteDownload?id=<%=note.getNoteId() %>"><img src="images/ppt.png" alt="" style="width: 50px;height: 50px"></a></td><%
+                <td><a href="javascript:payDownloadPeanuts(<%=note.getNoteDownloadPeanuts() %>,<%=note.getNoteId()%>)"><img src="images/ppt.png" alt="" style="width: 50px;height: 50px"></a></td><%
             }
             else if(note.getNoteType().equals("application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")){
             %>
-                <td><a href="NoteDownload?id=<%=note.getNoteId() %>"><img src="images/xls.jpg" alt="" style="width: 50px;height: 50px"></a></td><%
+                <td><a href="javascript:payDownloadPeanuts(<%=note.getNoteDownloadPeanuts() %>,<%=note.getNoteId()%>)"><img src="images/xls.jpg" alt="" style="width: 50px;height: 50px"></a></td><%
                 }
                 else{}
             %>

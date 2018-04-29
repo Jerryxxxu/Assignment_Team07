@@ -42,4 +42,8 @@ public class User {
         this.role = role;
     }
 
+    public String toString(){
+        return "userId="+userId+",userName"+userName+",password="+userPassword+",userPeanuts="+userPeanuts;
+    }
+
 }

@@ -70,8 +70,10 @@ public class UserDao {
             rs = sta.executeQuery(sql);
             while(rs.next()){
                 user=new User();
+                user.setUserId(rs.getInt("user_id"));
                 user.setUserName(rs.getString("user_name"));
                 user.setUserPassword(rs.getString("user_password"));
+                user.setUserPeanuts(rs.getInt("user_peanut"));
 
             }
 
@@ -97,6 +99,7 @@ public class UserDao {
             rs = sta.executeQuery(sql);
             while(rs.next()){
                 user=new User();
+                user.setUserId(rs.getInt("user_id"));
                 user.setRole(rs.getString("user_role"));
                 user.setUserName(rs.getString("user_name"));
                 user.setUserPeanuts(rs.getInt("user_peanut"));
@@ -122,6 +125,25 @@ public class UserDao {
             sta=conn.createStatement();
             int newUserPeanut=user.getUserPeanuts()+number;
             String sql = "UPDATE usertable SET user_peanut='" +newUserPeanut + "' WHERE user_name = '" + user.getUserName() + "'";
+            System.out.println(sql);
+            sta.executeUpdate(sql);
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }finally {
+            dbmanage.closeDB(sta,conn);
+        }
+    }
+    public void updateUserPeanut(User user,int number){
+        Dbmanage dbmanage = new Dbmanage();
+        Connection conn = null;
+        Statement sta=null;
+
+        try {
+            conn=dbmanage.initDB();
+            sta=conn.createStatement();
+            //int newUserPeanut=user.getUserPeanuts()+number;
+            String sql = "UPDATE usertable SET user_peanut='" +number + "' WHERE user_name = '" + user.getUserName() + "'";
             System.out.println(sql);
             sta.executeUpdate(sql);
 

@@ -1,5 +1,8 @@
 <%@ page import="com.user.User" %>
-<%@ page import="com.userdao.UserDao" %><%--
+<%@ page import="com.userdao.UserDao" %>
+<%@ page import="com.user.Question" %>
+<%@ page import="java.util.List" %>
+<%@ page import="com.userdao.QuestionReplyDao" %><%--
   Created by IntelliJ IDEA.
   User: Jerry
   Date: 2018/4/21
@@ -8,6 +11,7 @@
 --%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
 <html>
 <head>
     <title>Problem and solving</title>
@@ -30,12 +34,15 @@
 <body>
 <%
     User user = (User) session.getAttribute("user");
-    if(user!=null){
+    //judgemnet user log in
+    if(user!=null){//log in
         String uname = user.getUserName();
         UserDao ud = new UserDao();
+        //show the peanuts
         User user1 = ud.queryUserPeanut(uname);
-        session.setAttribute("user1",user1);
-    }else{
+        session.setAttribute("user",user1);
+
+    }else{//no log in
         response.sendRedirect("login.jsp");
         return;
     }
@@ -46,28 +53,38 @@
         <a class="w3-bar-item w3-text w3-text-pink w3-large w3-tangerine">Welcome ${user.userName}!</a>
         <a class="ex1 w3-bar-item w3-large w3-button"></a>
         <div class="w3-dropdown-hover">
-            <button class="w3-button w3-large">Peanuts ${user1.userPeanuts}
+            <button class="w3-button w3-large">Peanuts ${user.userPeanuts}
             </button>
-            <div class="w3-dropdown-content w3-bar-block w3-card-4">
-                <a class="w3-bar-item w3-button w3-large">My Status</a>
-                <a class="w3-bar-item w3-button w3-large">Submitted Problem </a>
-                <a class="w3-bar-item w3-button w3-large">Reply Answer</a>
-            </div>
         </div>
+        <a class="ex2 w3-bar-item w3-button w3-large" href="MyQuestion">My Problems</a>
         <a class="ex2 w3-bar-item w3-button w3-large" href="UserLogout">Logout</a>
     </div>
     <div class="w3-container w3-text-black">
         <div class="w3-display-container w3-text-black w3-tangerine"align="center">
-            <img src="http://img3.imgtn.bdimg.com/it/u=3111526370,1353314867&fm=11&gp=0.jpg" class="w3-circle" alt="Norway" align="middle"  style="width:100%;height:6.5cm">
+            <img src="images/question.jpg" class="w3-circle" alt="Norway" align="middle"  style="width:100%;height:6.5cm">
             <div class="w3-display-middle w3-jumbo">Problem and Solving</div>
         </div>
         <div class="w3-large">Question Lists:</div>
     </div>
+    <%
+        QuestionReplyDao qro=new QuestionReplyDao();
+        List<Question> questionlist=qro.queryAllQuestion();
+        request.setAttribute("questionlist", questionlist);
+
+    %>
     <div class="w3-container">
         <div class="w3-panel w3-pale-blue w3-leftbar w3-rightbar w3-border-blue">
             <div class="w3-text w3-large">QUESTION :</div>
-            <c:forEach var="ql" items="${questionlist}">
-                <div class="w3-text w3-text-red w3-large"><a href="QuestionReply?methodname=queryReply&questionid=${ql.questionId}">${ql.questionInfo }</a></div>
+            <c:forEach var="ql" items="${questionlist}" varStatus="status">
+                <div class="w3-text w3-text-red w3-large">${status.count}.<a href="QuestionReply?methodname=queryReply&questionid=${ql.questionId}">
+                    <c:if test="${fn:length(ql.questionInfo)<30}">
+                        ${ql.questionInfo}
+                    </c:if>
+                    <c:if test="${fn:length(ql.questionInfo)>=30}">
+                        ${fn:substring(ql.questionInfo,0 , 30)} .......
+                    </c:if>
+
+                </a></div>
                 <div class="w3-text w3-text-brown">Post by ${ql.questionUsername} at ${ql.questiontime }.</div>
             </c:forEach>
 
@@ -78,7 +95,9 @@
         <input type="hidden" name="methodname" value="addQuestion">
         <div class="w3-container">
             <div class="w3-large">Your Question</div>
-            <div class="w3-left-align "><p><input type="text" name="questionInfo"/></p></div>
+            <div class="w3-left-align "><p>
+                <textarea name="questionInfo" cols="100" rows="8" placeholder="please input your problem!"></textarea>
+            </p></div>
         </div>
 
         <p>

@@ -43,7 +43,7 @@
         <div class="w3-col l3 m6 w3-margin-bottom">
             <div class="w3-display-container">
                 <div class="w3-display-topleft w3-black w3-padding">
-                    <a href="problemSolving.jsp" class="w3-bar-item w3-button">QuestionSolver</a></div>
+                    <a href="QuestionIndex" class="w3-bar-item w3-button">QuestionSolver</a></div>
                 <img  src="images/questionSolver.png" alt="QuestionSolver" style="width: 200px;height:200px;margin: 20px;">
             </div>
         </div>

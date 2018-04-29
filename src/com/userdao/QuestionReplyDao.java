@@ -221,4 +221,39 @@ public class QuestionReplyDao {
             dbmanage.closeDB(sta,conn);
         }
     }
+
+
+    /*
+    find all my problems
+     */
+    public List<Question> queryAllMyQuestion(int userId){
+        Dbmanage dbmanage = new Dbmanage();
+        Connection conn = null;
+        Statement sta=null;
+        ResultSet rs=null;
+        List<Question> questionlist=new ArrayList<Question>();
+        Question question=null;
+
+        try {
+            conn=dbmanage.initDB();
+            sta=conn.createStatement();
+            String sql = "SELECT * FROM question WHERE question_user = "+userId;
+            rs = sta.executeQuery(sql);
+            while(rs.next()){
+                question=new Question();
+                question.setQuestionId(rs.getInt("question_id"));
+                question.setQuestionInfo(rs.getString("question_info"));
+                question.setQuestionUser(rs.getInt("question_user"));
+                question.setQuestionUsername(rs.getString("questionusername"));
+                question.setQuestiontime(rs.getString("questiontime"));
+                questionlist.add(question);
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }finally {
+            dbmanage.closeDB(rs,sta,conn);
+        }
+        return questionlist;
+    }
 }
