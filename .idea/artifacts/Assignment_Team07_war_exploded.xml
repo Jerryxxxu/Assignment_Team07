@@ -1,16 +1,14 @@
 <component name="ArtifactManager">
-  <artifact type="war" name="Assignment_Team07:war exploded">
+  <artifact type="exploded-war" name="Assignment_Team07:war exploded">
     <output-path>$PROJECT_DIR$/out/artifacts/Assignment_Team07_war_exploded</output-path>
-    <root id="archive" name="Assignment_Team07_war exploded.war">
-      <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/web/META-INF/MANIFEST.MF" />
-      </element>
+    <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="Assignment_Team07" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="Java EE 6-Java EE 6" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/jstl.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/standard.jar" />
         </element>
       </element>
       <element id="javaee-facet-resources" facet="Assignment_Team07/web/Web" />

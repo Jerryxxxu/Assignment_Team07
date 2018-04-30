@@ -83,7 +83,7 @@
             </c:forEach>
 
         </div>
-
+        <a class="w3-bar-item w3-button w3-black w3-large" href="problemSolving.jsp">Back</a>
     </div>
 </div>
 

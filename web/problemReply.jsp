@@ -48,12 +48,9 @@
         <a class="ex1 w3-bar-item w3-large w3-button"></a>
         <div class="w3-dropdown-hover">
             <button class="w3-button w3-large">Peanuts ${user1.userPeanuts }</button>
-            <div class="w3-dropdown-content w3-bar-block w3-card-4">
-                <a class="w3-bar-item w3-button w3-large">My Status</a>
-                <a class="w3-bar-item w3-button w3-large">Submitted Problem </a>
-                <a class="w3-bar-item w3-button w3-large">Reply Answer</a>
-            </div>
         </div>
+        <%--<a href="problemSolving.jsp" class="w3-bar-item w3-large w3-button">Back</a>--%>
+        <a class="ex2 w3-bar-item w3-button w3-large" href="problemSolving.jsp">Back</a>
         <a class="ex2 w3-bar-item w3-button w3-large" href="UserLogout">Logout</a>
     </div>
     <div class="w3-container w3-text-black">
