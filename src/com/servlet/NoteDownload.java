@@ -63,6 +63,28 @@ public class NoteDownload extends HttpServlet {
                 if (mimeType == null) {
                     mimeType = "application/octet-stream";
                 }
+                else if (mimeType.equals("application/vnd.openxmlformats-officedocument.presentationml.presentation")){
+                    response.setContentType(mimeType);
+                    response.setContentLength(fileLength);
+                    String headerKey = "Content-Disposition";
+                    String headerValue = String.format("attachment; filename="+noteTitle+".pptx");
+                    response.setHeader(headerKey, headerValue);
+                }
+                else if (mimeType.equals("application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")){
+                    response.setContentType(mimeType);
+                    response.setContentLength(fileLength);
+                    String headerKey = "Content-Disposition";
+                    String headerValue = String.format("attachment; filename="+noteTitle+".xlsx");
+                    response.setHeader(headerKey, headerValue);
+                }
+                else if (mimeType.equals("application/vnd.openxmlformats-officedocument.wordprocessingml.document")){
+                    response.setContentType(mimeType);
+                    response.setContentLength(fileLength);
+                    String headerKey = "Content-Disposition";
+                    String headerValue = String.format("attachment; filename="+noteTitle+".docx");
+                    response.setHeader(headerKey, headerValue);
+                }else{
+
                 System.out.println(mimeType);
                 // set content properties and header attributes for the response
                 response.setContentType(mimeType);
@@ -71,7 +93,7 @@ public class NoteDownload extends HttpServlet {
                 System.out.println("."+mimeType.substring(index));
                 String headerKey = "Content-Disposition";
                 String headerValue = String.format("attachment; filename="+noteTitle+"."+mimeType.substring(index));
-                response.setHeader(headerKey, headerValue);
+                response.setHeader(headerKey, headerValue);}
 
                 // writes the file to the client
                 OutputStream outStream = response.getOutputStream();
@@ -90,7 +112,8 @@ public class NoteDownload extends HttpServlet {
                 notedao.updateDownloadTimes(notedao.queryDownloadTimes(noteId));
                 UserDao userdao =new UserDao();
                 userdao.increaseUserPeanut(userdao.queryUserPeanut(user.getUserName()),-downloadPeanuts);
-                userdao.increaseUserPeanut(userdao.queryUserPeanut(notedao.queryNoteSubmitter(noteId).getNoteSubmitter()),downloadPeanuts);
+                userdao.increaseUserPeanut(userdao.queryUserPeanut(notedao.queryNoteSubmitter(noteId).getNoteSubmitter()),downloadPeanuts-2);
+                userdao.increaseUserPeanut(userdao.queryUserPeanut("jerry"),2);
 
                 userdao.updateTransaction(user.getUserName(),notedao.queryNoteSubmitter(noteId).getNoteSubmitter(),downloadPeanuts,"downloading note "+notedao.selectOneNote(noteId).getNoteTitle()+"");
 
