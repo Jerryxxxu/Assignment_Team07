@@ -21,6 +21,7 @@
         <a href="#home" class="w3-bar-item w3-button">CloudBase</a>
         <!-- Float links to the right. Hide them on small screens -->
         <div class="w3-right w3-hide-small">
+            <a href="uploadWar.jsp" class="w3-bar-item w3-button"><img src="images/arrow.png" style="width:30px;height:25px;"></a>
             <a href="login.jsp" class="w3-bar-item w3-button">Login</a>
             <a href="#" class="w3-bar-item w3-button">Contact Us</a>
         </div>
@@ -57,6 +58,13 @@
                 <div class="w3-display-topleft w3-black w3-padding">
                     <a href="UserIndex" class="w3-bar-item w3-button">SharingNotes</a></div>
                 <img src="images/sharingNotes.png" alt="SharingNotes" style="width:200px;height:200px;margin: 20px;">
+            </div>
+        </div>
+        <div class="w3-col l3 m6 w3-margin-bottom">
+            <div class="w3-display-container">
+                <div class="w3-display-topleft w3-black w3-padding">
+                    <a href="UserIndex" class="w3-bar-item w3-button">EventStudy</a></div>
+                <img src="images/study.jpg" alt="EventStudy" style="width:200px;height:200px;margin: 20px;">
             </div>
         </div>
 

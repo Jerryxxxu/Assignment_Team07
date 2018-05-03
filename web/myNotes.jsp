@@ -113,8 +113,8 @@
                 <td><%=note.getNoteSubmitter()%></td>
                 <td><%=note.getNoteDownloadTimes()%></td>
                 <td><%=note.getNoteSubmittingTime()%></td>
-                <td><a href="NoteDelete?noteId=<%=note.getNoteId() %>">delete</a></td>
-                <td><a href="NoteUpdate?noteId=<%=note.getNoteId() %>">edit</a></td>
+                <td><a href="NoteDelete?noteId=<%=note.getNoteId()%>">delete</a></td>
+                <td><a href="NoteUpdate?noteId=<%=note.getNoteId()%>">edit</a></td>
             </tr>
             <%
                 }

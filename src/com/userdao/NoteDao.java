@@ -234,26 +234,20 @@ public class NoteDao {
         }
 
     }
-
     public void deleteUserList(String[] noteId){
         Dbmanage dbmanage = new Dbmanage();
         Connection conn = null;
         Statement sta = null;
-
         try {
             conn = dbmanage.initDB();
             sta = conn.createStatement();
             int Id = 0;
             for (int i = 0; i<noteId.length; i++) {
-
                 Id = Integer.parseInt(noteId[i]);
-
                 String sql = "DELETE FROM noteTable WHERE note_id ="
                         + Id;
-
                 sta.executeUpdate(sql);
             }
-
         } catch (SQLException e) {
 
             e.printStackTrace();

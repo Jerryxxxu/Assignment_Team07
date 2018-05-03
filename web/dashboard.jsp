@@ -29,8 +29,6 @@
     </div>
 </header>
 
-
-
 <!-- Page content -->
 <div class="w3-content w3-padding" style="max-width:1564px">
 
@@ -54,11 +52,15 @@
                 <img src="images/sharingNotes.png" alt="SharingNotes" style="width:200px;height:200px;margin: 20px;">
             </div>
         </div>
+        <div class="w3-col l3 m6 w3-margin-bottom">
+            <div class="w3-display-container">
+                <div class="w3-display-topleft w3-black w3-padding">
+                    <a href="StudyIndex" class="w3-bar-item w3-button">EventStudy</a></div>
+                <img src="images/study.jpg" alt="EventStudy" style="width:200px;height:200px;margin: 20px;">
+            </div>
+        </div>
 
     </div>
-
-
-
 </div>
 
 </body>

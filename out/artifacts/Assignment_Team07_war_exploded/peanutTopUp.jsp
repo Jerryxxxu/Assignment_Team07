@@ -37,12 +37,8 @@
             <thead>
             <tr class="w3-teal">
                 <th>Enter the number of peanuts you want to top up:</th>
-
             </tr>
             </thead>
-
-
-
             <form action="UserPeanutTopUp" method="post">
             <tr align="center" >
                 <td><input type="text" name="numberOfPeanuts" size="50"/></td>
@@ -56,17 +52,7 @@
         </table>
         <br>
         <br>
-
-
-        <br>
-        <br>
     </section>
 </div>
-
-
-
-
-    </table>
-</form>
 </body>
 </html>

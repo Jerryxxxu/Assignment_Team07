@@ -131,4 +131,55 @@
         <servlet-name>QuestionReply</servlet-name>
         <servlet-class>com.servlet.QuestionReply</servlet-class>
     </servlet>
+
+    <servlet>
+        <servlet-name>DeleteEvent</servlet-name>
+        <servlet-class>DeleteEvent</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteEvent</servlet-name>
+        <url-pattern>/DeleteEvent</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>CreateEvent</servlet-name>
+        <servlet-class>CreateEventServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CreateEvent</servlet-name>
+        <url-pattern>/CreateEvent</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>BookEvent</servlet-name>
+        <servlet-class>BookEventServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BookEvent</servlet-name>
+        <url-pattern>/EventManagement</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>StudyIndex</servlet-name>
+        <servlet-class>com.servlet.StudyIndex</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StudyIndex</servlet-name>
+        <url-pattern>/StudyIndex</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>MyStudy</servlet-name>
+        <servlet-class>com.servlet.MyStudy</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MyStudy</servlet-name>
+        <url-pattern>/MyStudy</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>MyBooking</servlet-name>
+        <servlet-class>com.servlet.MyBooking</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MyBooking</servlet-name>
+        <url-pattern>/MyBooking</url-pattern>
+    </servlet-mapping>
 </web-app>
